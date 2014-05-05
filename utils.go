@@ -7,9 +7,13 @@ import (
 var KeyList = map[string]int{
 	" ": ' ',
 	"": 65307,
-	"\\e": 65307,
-	"esc": 65307,
-	"\n":  65293,
+	"\\e":     65307,
+	"esc":     65307,
+	"\n":      65293,
+	"<left>":  65361,
+	"<up>":    65362,
+	"<right>": 65363,
+	"<down>":  65364,
 }
 
 func rgbToColor(rgb uint32) color.Color {

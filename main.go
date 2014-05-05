@@ -74,6 +74,7 @@ func main() {
 		y: 0,
 		z: 100,
 	}
+
 	objs := []Object{
 		&Plan{
 			color: rgbToColor(0xFF0000),
@@ -89,17 +90,35 @@ func main() {
 			color: rgbToColor(0xFFFF00),
 		},
 	}
-	rt.fillImage(eye, objs)
-	draw.Draw(w.Screen(), w.Screen().Bounds(), rt.img, image.ZP, draw.Src)
-	w.FlushImage()
+
+	fct := func() {
+		rt.fillImage(eye, objs)
+		draw.Draw(w.Screen(), w.Screen().Bounds(), rt.img, image.ZP, draw.Src)
+		w.FlushImage()
+	}
+	fct()
 	for e := range w.EventChan() {
 		switch e := e.(type) {
 		case ui.KeyEvent:
-			fmt.Printf("%#v\n", e.Key)
 			switch e.Key {
 			case KeyList[" "], KeyList["\\e"], KeyList["\n"]:
 				return
+			case KeyList["<up>"]:
+				eye.x += 10
+			case KeyList["<down>"]:
+				eye.x -= 10
+			case KeyList["<left>"]:
+				eye.y += 10
+			case KeyList["<right>"]:
+				eye.y -= 10
+			case 'a':
+				eye.z += 10
+			case 'z':
+				eye.z -= 10
+			default:
+				fmt.Printf("%#v\n", e.Key)
 			}
+			fct()
 		}
 	}
 }
