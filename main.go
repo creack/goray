@@ -100,20 +100,20 @@ func main() {
 	for e := range w.EventChan() {
 		switch e := e.(type) {
 		case ui.KeyEvent:
-			switch e.Key {
-			case KeyList[" "], KeyList["\\e"], KeyList["\n"]:
+			switch KeyListInt[e.Key] {
+			case " ", "<esc>", "\n", "q":
 				return
-			case KeyList["<up>"]:
+			case "<up>":
 				eye.x += 10
-			case KeyList["<down>"]:
+			case "<down>":
 				eye.x -= 10
-			case KeyList["<left>"]:
+			case "<left>":
 				eye.y += 10
-			case KeyList["<right>"]:
+			case "<right>":
 				eye.y -= 10
-			case 'a':
+			case "a":
 				eye.z += 10
-			case 'z':
+			case "z":
 				eye.z -= 10
 			default:
 				fmt.Printf("%#v\n", e.Key)
