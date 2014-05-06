@@ -87,8 +87,7 @@ func (rt *RT) fillImage(eye *Point, objs []Object) {
 		y int
 	)
 
-	total := rt.width * rt.height
-	for i := 0; i < total; i++ {
+	for i, total := 0, rt.width*rt.height; i < total; i++ {
 		x = i % rt.width
 		y = i / rt.width
 		rt.img.Set(x, y, rt.calc(x, y, eye, objs))
@@ -96,18 +95,17 @@ func (rt *RT) fillImage(eye *Point, objs []Object) {
 }
 
 func main() {
-	w, err := x11.NewWindow()
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
 	eye, objs, err := parseConfig("rt.config")
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
-
 	rt := NewRT(800, 600)
+	w, err := x11.NewWindow()
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
 	fct := func() {
 		rt.fillImage(eye, objs)
 		draw.Draw(w.Screen(), w.Screen().Bounds(), rt.img, image.ZP, draw.Src)
@@ -132,8 +130,6 @@ func main() {
 				eye.z += 10
 			case "z":
 				eye.z -= 10
-			default:
-				fmt.Printf("%#v\n", e.Key)
 			}
 			fct()
 		}
