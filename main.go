@@ -5,18 +5,43 @@ import (
 	"image"
 	"image/color"
 	"image/draw"
+	"strconv"
 
 	"code.google.com/p/x-go-binding/ui"
 	"code.google.com/p/x-go-binding/ui/x11"
 )
 
+var objectList = map[string]func(map[string]string) (Object, error){}
+
 type Object interface {
 	Color() color.Color
 	Intersect(v *Vector, eye *Point) float64
+	Parse(values map[string]string) (Object, error)
 }
 
 type Point struct {
 	x, y, z int
+}
+
+func (p *Point) Parse(values map[string]string) (*Point, error) {
+	if p == nil {
+		p = &Point{}
+	}
+	xStr, yStr, zStr := values["x"], values["y"], values["z"]
+	x, err := strconv.Atoi(xStr)
+	if err != nil {
+		return nil, err
+	}
+	y, err := strconv.Atoi(yStr)
+	if err != nil {
+		return nil, err
+	}
+	z, err := strconv.Atoi(zStr)
+	if err != nil {
+		return nil, err
+	}
+	p.x, p.y, p.z = x, y, z
+	return p, nil
 }
 
 type Vector struct {
@@ -24,17 +49,27 @@ type Vector struct {
 }
 
 type RT struct {
-	img *image.RGBA
+	img    *image.RGBA
+	width  int
+	height int
 }
 
-func (rt *RT) calc(X, Y, x, y int, eye *Point, objs []Object) color.Color {
+func NewRT(x, y int) *RT {
+	return &RT{
+		img:    image.NewRGBA(image.Rect(0, 0, x, y)),
+		width:  x,
+		height: y,
+	}
+}
+
+func (rt *RT) calc(x, y int, eye *Point, objs []Object) color.Color {
 	var (
 		k   float64     = -1
 		col color.Color = color.Black
 		v               = &Vector{
 			x: 100,
-			y: float64(X/2 - x),
-			z: float64(Y/2 - y),
+			y: float64(rt.width/2 - x),
+			z: float64(rt.height/2 - y),
 		}
 	)
 	for _, obj := range objs {
@@ -48,15 +83,15 @@ func (rt *RT) calc(X, Y, x, y int, eye *Point, objs []Object) color.Color {
 
 func (rt *RT) fillImage(eye *Point, objs []Object) {
 	var (
-		x, y int
-		X    = rt.img.Bounds().Dx()
-		Y    = rt.img.Bounds().Dy()
+		x int
+		y int
 	)
 
-	for i := 0; i < X*Y; i++ {
-		x = i % X
-		y = i / X
-		rt.img.Set(x, y, rt.calc(X, Y, x, y, eye, objs))
+	total := rt.width * rt.height
+	for i := 0; i < total; i++ {
+		x = i % rt.width
+		y = i / rt.width
+		rt.img.Set(x, y, rt.calc(x, y, eye, objs))
 	}
 }
 
@@ -66,31 +101,13 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-	rt := &RT{
-		img: image.NewRGBA(image.Rect(0, 0, 800, 600)),
-	}
-	eye := &Point{
-		x: -300,
-		y: 0,
-		z: 100,
+	eye, objs, err := parseConfig("rt.config")
+	if err != nil {
+		fmt.Println(err)
+		return
 	}
 
-	objs := []Object{
-		&Plan{
-			color: rgbToColor(0xFF0000),
-			z:     0,
-		},
-		&Sphere{
-			position: &Point{
-				x: 100,
-				y: 0,
-				z: 0,
-			},
-			R:     100,
-			color: rgbToColor(0xFFFF00),
-		},
-	}
-
+	rt := NewRT(800, 600)
 	fct := func() {
 		rt.fillImage(eye, objs)
 		draw.Draw(w.Screen(), w.Screen().Bounds(), rt.img, image.ZP, draw.Src)
