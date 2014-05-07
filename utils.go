@@ -7,7 +7,7 @@ import (
 )
 
 var KeyListStr = map[string]int{
-	"  ":      ' ',
+	" ":       ' ',
 	"<esc>":   65307,
 	"\n":      65293,
 	"<left>":  65361,

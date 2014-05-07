@@ -45,6 +45,9 @@ func (cc *Cone) Parse(values map[string]string) (Object, error) {
 }
 
 func (cc *Cone) Intersect(v *Vector, eye *Point) float64 {
+	eye.Sub(cc.position)
+	defer eye.Add(cc.position)
+
 	var (
 		r = math.Tan(float64(cc.R) / math.Pi * 180)
 		a = (v.x*v.x + v.y*v.y - v.z*v.z) / (r * r)

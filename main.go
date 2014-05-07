@@ -5,7 +5,6 @@ import (
 	"image"
 	"image/color"
 	"image/draw"
-	"strconv"
 
 	"code.google.com/p/x-go-binding/ui"
 	"code.google.com/p/x-go-binding/ui/x11"
@@ -19,39 +18,15 @@ type Object interface {
 	Parse(values map[string]string) (Object, error)
 }
 
-type Point struct {
-	x, y, z int
-}
-
-func (p *Point) Parse(values map[string]string) (*Point, error) {
-	if p == nil {
-		p = &Point{}
-	}
-	xStr, yStr, zStr := values["x"], values["y"], values["z"]
-	x, err := strconv.Atoi(xStr)
-	if err != nil {
-		return nil, err
-	}
-	y, err := strconv.Atoi(yStr)
-	if err != nil {
-		return nil, err
-	}
-	z, err := strconv.Atoi(zStr)
-	if err != nil {
-		return nil, err
-	}
-	p.x, p.y, p.z = x, y, z
-	return p, nil
-}
-
 type Vector struct {
 	x, y, z float64
 }
 
 type RT struct {
-	img    *image.RGBA
-	width  int
-	height int
+	img     *image.RGBA
+	width   int
+	height  int
+	verbose bool
 }
 
 func NewRT(x, y int) *RT {
@@ -90,7 +65,13 @@ func (rt *RT) fillImage(eye *Point, objs []Object) {
 	for i, total := 0, rt.width*rt.height; i < total; i++ {
 		x = i % rt.width
 		y = i / rt.width
+		if rt.verbose && x == 0 && y%10 == 0 {
+			fmt.Printf("\rProcessing: %d%%", int((float64(y)/float64(rt.height))*100+1))
+		}
 		rt.img.Set(x, y, rt.calc(x, y, eye, objs))
+	}
+	if rt.verbose {
+		fmt.Println("\rProcessing: 100%")
 	}
 }
 
@@ -101,37 +82,42 @@ func main() {
 		return
 	}
 	rt := NewRT(800, 600)
-	w, err := x11.NewWindow()
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-	fct := func() {
-		rt.fillImage(eye, objs)
-		draw.Draw(w.Screen(), w.Screen().Bounds(), rt.img, image.ZP, draw.Src)
-		w.FlushImage()
-	}
-	fct()
-	for e := range w.EventChan() {
-		switch e := e.(type) {
-		case ui.KeyEvent:
-			switch KeyListInt[e.Key] {
-			case " ", "<esc>", "\n", "q":
-				return
-			case "<up>":
-				eye.x += 10
-			case "<down>":
-				eye.x -= 10
-			case "<left>":
-				eye.y += 10
-			case "<right>":
-				eye.y -= 10
-			case "a":
-				eye.z += 10
-			case "z":
-				eye.z -= 10
+	rt.verbose = true
+	rt.fillImage(eye, objs)
+
+	if true {
+		w, err := x11.NewWindow()
+		if err != nil {
+			fmt.Println(err)
+			return
+		}
+		fct := func() {
+			rt.fillImage(eye, objs)
+			draw.Draw(w.Screen(), w.Screen().Bounds(), rt.img, image.ZP, draw.Src)
+			w.FlushImage()
+		}
+		fct()
+		for e := range w.EventChan() {
+			switch e := e.(type) {
+			case ui.KeyEvent:
+				switch KeyListInt[e.Key] {
+				case " ", "<esc>", "\n", "q":
+					return
+				case "<up>":
+					eye.x += 10
+				case "<down>":
+					eye.x -= 10
+				case "<left>":
+					eye.y += 10
+				case "<right>":
+					eye.y -= 10
+				case "a":
+					eye.z += 10
+				case "z":
+					eye.z -= 10
+				}
+				fct()
 			}
-			fct()
 		}
 	}
 }
