@@ -3,7 +3,6 @@ package main
 import (
 	"image/color"
 	"math"
-	"strconv"
 )
 
 func init() {
@@ -13,34 +12,28 @@ func init() {
 type Cone struct {
 	color    color.Color
 	R        int
-	position *Point
+	position Point
 }
 
-func NewCone(values map[string]string) (Object, error) {
-	return (&Cone{}).Parse(values)
+func NewCone(obj ObjectConfig) (Object, error) {
+	return (&Cone{}).Parse(obj)
 }
 
 func (cc *Cone) Color() color.Color {
 	return cc.color
 }
 
-func (cc *Cone) Parse(values map[string]string) (Object, error) {
+func (cc *Cone) Parse(obj ObjectConfig) (Object, error) {
 	if cc == nil {
 		cc = &Cone{}
 	}
-	position, err := cc.position.Parse(values)
+	position, err := cc.position.Parse(obj)
 	if err != nil {
 		return nil, err
 	}
-	r, err := strconv.Atoi(values["R"])
-	if err != nil {
-		return nil, err
-	}
-	color, err := DecodeColor(values["color"])
-	if err != nil {
-		return nil, err
-	}
-	cc.position, cc.R, cc.color = position, r, color
+	color := RgbIntToColor(uint32(obj.Color))
+
+	cc.position, cc.R, cc.color = position, obj.R, color
 	return cc, nil
 }
 

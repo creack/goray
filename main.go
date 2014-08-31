@@ -10,16 +10,20 @@ import (
 	"code.google.com/p/x-go-binding/ui/x11"
 )
 
-var objectList = map[string]func(map[string]string) (Object, error){}
+type NewObjectFct func(ObjectConfig) (Object, error)
+
+var objectList = map[string]NewObjectFct{}
 
 type Object interface {
 	Color() color.Color
 	Intersect(v *Vector, eye *Point) float64
-	Parse(values map[string]string) (Object, error)
+	Parse(values ObjectConfig) (Object, error)
 }
 
 type Vector struct {
-	x, y, z float64
+	x float64
+	y float64
+	z float64
 }
 
 type RT struct {
@@ -76,7 +80,7 @@ func (rt *RT) fillImage(eye *Point, objs []Object) {
 }
 
 func main() {
-	eye, objs, err := parseConfig("rt.config")
+	eye, objs, err := parseConfigYaml("rt.yaml")
 	if err != nil {
 		fmt.Println(err)
 		return

@@ -1,9 +1,6 @@
 package main
 
-import (
-	"image/color"
-	"strconv"
-)
+import "image/color"
 
 func init() {
 	objectList["sphere"] = NewSphere
@@ -12,34 +9,27 @@ func init() {
 type Sphere struct {
 	color    color.Color
 	R        int
-	position *Point
+	position Point
 }
 
-func NewSphere(values map[string]string) (Object, error) {
-	return (&Sphere{}).Parse(values)
+func NewSphere(obj ObjectConfig) (Object, error) {
+	return (&Sphere{}).Parse(obj)
 }
 
 func (s *Sphere) Color() color.Color {
 	return s.color
 }
 
-func (s *Sphere) Parse(values map[string]string) (Object, error) {
+func (s *Sphere) Parse(obj ObjectConfig) (Object, error) {
 	if s == nil {
 		s = &Sphere{}
 	}
-	position, err := s.position.Parse(values)
+	position, err := s.position.Parse(obj)
 	if err != nil {
 		return nil, err
 	}
-	r, err := strconv.Atoi(values["R"])
-	if err != nil {
-		return nil, err
-	}
-	color, err := DecodeColor(values["color"])
-	if err != nil {
-		return nil, err
-	}
-	s.position, s.R, s.color = position, r, color
+	color := RgbIntToColor(uint32(obj.Color))
+	s.position, s.R, s.color = position, obj.R, color
 	return s, nil
 }
 

@@ -1,0 +1,15 @@
+{
+	"ImportPath": "github.com/creack/goray",
+	"GoVersion": "go1.3.1",
+	"Deps": [
+		{
+			"ImportPath": "code.google.com/p/x-go-binding/ui",
+			"Comment": "null-19",
+			"Rev": "c5ad9cbe00295f08ade60298c8b6dc935bc9fc8f"
+		},
+		{
+			"ImportPath": "github.com/vaughan0/go-ini",
+			"Rev": "a98ad7ee00ec53921f08832bc06ecf7fd600e6a1"
+		}
+	]
+}
