@@ -1,3 +1,5 @@
+verbose: true
+
 eye:
   position:
     x: -300

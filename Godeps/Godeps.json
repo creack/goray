@@ -8,8 +8,8 @@
 			"Rev": "c5ad9cbe00295f08ade60298c8b6dc935bc9fc8f"
 		},
 		{
-			"ImportPath": "github.com/vaughan0/go-ini",
-			"Rev": "a98ad7ee00ec53921f08832bc06ecf7fd600e6a1"
+			"ImportPath": "gopkg.in/yaml.v1",
+			"Rev": "feb4ca79644e8e7e39c06095246ee54b1282c118"
 		}
 	]
 }
