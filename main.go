@@ -117,7 +117,7 @@ func (rt *RT) fillImage(eye objects.Point, objs []objects.Object) {
 		rt.img.Set(x, y, rt.calc(x, y, eye, objs))
 	}
 	if rt.verbose {
-		fmt.Printf("\rProcessing: 100%\n")
+		fmt.Println("\rProcessing: 100%")
 	}
 }
 
@@ -130,7 +130,6 @@ func main() {
 	rt := NewRT(800, 600)
 	rt.verbose = true
 	rt.fillImage(eye.Position, objs)
-
 	w, err := x11.NewWindow()
 	if err != nil {
 		fmt.Println(err)
