@@ -43,9 +43,9 @@ func (cc *Cone) Intersect(v *Vector, eye *Point) float64 {
 
 	var (
 		r = math.Tan(float64(cc.R) / math.Pi * 180)
-		a = (v.x*v.x + v.y*v.y - v.z*v.z) / (r * r)
-		b = (2 * (v.x*float64(eye.x) + v.y*float64(eye.y) - v.z*float64(eye.z))) / (r * r)
-		c = float64(eye.x*eye.x+eye.y*eye.y-eye.z*eye.z) / (r * r)
+		a = (v.X*v.X + v.Y*v.Y - v.Z*v.Z) / (r * r)
+		b = (2 * (v.X*float64(eye.X) + v.Y*float64(eye.Y) - v.Z*float64(eye.Z))) / (r * r)
+		c = float64(eye.X*eye.X+eye.Y*eye.Y-eye.Z*eye.Z) / (r * r)
 	)
 	return SecondDegree(a, b, c)
 }

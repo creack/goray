@@ -23,14 +23,14 @@ func (p *Plan) Parse(obj ObjectConfig) (Object, error) {
 	if p == nil {
 		p = &Plan{}
 	}
-	p.z = obj.Z
+	p.z = obj.Position.Z
 	p.color = RgbIntToColor(uint32(obj.Color))
 	return p, nil
 }
 
 func (p *Plan) Intersect(v *Vector, eye *Point) float64 {
-	if v.z == 0 {
+	if v.Z == 0 {
 		return 0
 	}
-	return -float64(eye.z+p.z) / v.z
+	return -float64(eye.Z+p.z) / v.Z
 }

@@ -21,9 +21,9 @@ type Object interface {
 }
 
 type Vector struct {
-	x float64
-	y float64
-	z float64
+	X float64 `yaml:"x"`
+	Y float64 `yaml:"y"`
+	Z float64 `yaml:"z"`
 }
 
 type RT struct {
@@ -46,9 +46,9 @@ func (rt *RT) calc(x, y int, eye *Point, objs []Object) color.Color {
 		k   float64     = -1
 		col color.Color = color.Black
 		v               = &Vector{
-			x: 100,
-			y: float64(rt.width/2 - x),
-			z: float64(rt.height/2 - y),
+			X: 100,
+			Y: float64(rt.width/2 - x),
+			Z: float64(rt.height/2 - y),
 		}
 	)
 	for _, obj := range objs {
@@ -108,17 +108,17 @@ func main() {
 				case " ", "<esc>", "\n", "q":
 					return
 				case "<up>":
-					eye.x += 10
+					eye.X += 10
 				case "<down>":
-					eye.x -= 10
+					eye.X -= 10
 				case "<left>":
-					eye.y += 10
+					eye.Y += 10
 				case "<right>":
-					eye.y -= 10
+					eye.Y -= 10
 				case "a":
-					eye.z += 10
+					eye.Z += 10
 				case "z":
-					eye.z -= 10
+					eye.Z -= 10
 				}
 				fct()
 			}

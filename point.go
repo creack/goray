@@ -1,25 +1,27 @@
 package main
 
 type Point struct {
-	x, y, z int
+	X int `yaml:"x"`
+	Y int `yaml:"y"`
+	Z int `yaml:"z"`
 }
 
 func (p *Point) Add(p2 Point) {
-	p.x += p2.x
-	p.y += p2.y
-	p.z += p2.z
+	p.X += p2.X
+	p.Y += p2.Y
+	p.Z += p2.Z
 }
 
 func (p *Point) Sub(p2 Point) {
-	p.x -= p2.x
-	p.y -= p2.y
-	p.z -= p2.z
+	p.X -= p2.X
+	p.Y -= p2.Y
+	p.Z -= p2.Z
 }
 
 func (p *Point) Parse(obj ObjectConfig) (Point, error) {
 	if p == nil {
 		p = &Point{}
 	}
-	p.x, p.y, p.z = obj.X, obj.Y, obj.Z
+	p.X, p.Y, p.Z = obj.Position.X, obj.Position.Y, obj.Position.Z
 	return *p, nil
 }

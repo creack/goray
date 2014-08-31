@@ -8,12 +8,10 @@ import (
 )
 
 type ObjectConfig struct {
-	Type  string `yaml:"type"`
-	X     int    `yaml:"x"`
-	Y     int    `yaml:"y"`
-	Z     int    `yaml:"z"`
-	Color int    `yaml:"color"`
-	R     int    `yaml:"R"`
+	Type     string `yaml:"type"`
+	Position Point  `yaml:"position"`
+	Color    int    `yaml:"color"`
+	R        int    `yaml:"R"`
 }
 
 type Config struct {
