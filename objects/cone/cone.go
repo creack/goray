@@ -30,7 +30,7 @@ func (cc *Cone) Parse(obj objects.ObjectConfig) (objects.Object, error) {
 	if cc == nil {
 		cc = &Cone{}
 	}
-	cc.position, cc.R, cc.color = obj.Position, obj.R, utils.RgbIntToColor(obj.Color)
+	cc.position, cc.R, cc.color = obj.Position, obj.R, obj.Color
 	return cc, nil
 }
 

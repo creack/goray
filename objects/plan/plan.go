@@ -4,7 +4,6 @@ import (
 	"image/color"
 
 	"github.com/creack/goray/objects"
-	"github.com/creack/goray/utils"
 )
 
 func init() {
@@ -29,7 +28,7 @@ func (p *Plan) Parse(obj objects.ObjectConfig) (objects.Object, error) {
 		p = &Plan{}
 	}
 	p.z = obj.Position.Z
-	p.color = utils.RgbIntToColor(obj.Color)
+	p.color = obj.Color
 	return p, nil
 }
 

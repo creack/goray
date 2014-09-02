@@ -6,6 +6,7 @@ import (
 	"image/color"
 
 	"github.com/creack/goray/objects"
+	_ "github.com/creack/goray/objects/all"
 )
 
 type RT struct {
@@ -20,11 +21,18 @@ type Eye struct {
 	Rotation objects.Vector
 }
 
-func NewRT(x, y int) *RT {
+type SceneConfig struct {
+	Height  int
+	Width   int
+	Eye     *Eye
+	Objects []objects.Object
+}
+
+func NewRT(w, h int) *RT {
 	return &RT{
-		Img:    image.NewRGBA(image.Rect(0, 0, x, y)),
-		Width:  x,
-		Height: y,
+		Img:    image.NewRGBA(image.Rect(0, 0, w, h)),
+		Width:  w,
+		Height: h,
 	}
 }
 
@@ -47,7 +55,7 @@ func (rt *RT) calc(x, y int, eye objects.Point, objs []objects.Object) color.Col
 	return col
 }
 
-func (rt *RT) FillImage(eye objects.Point, objs []objects.Object) {
+func (rt *RT) Compute(eye objects.Point, objs []objects.Object) {
 	var (
 		x int
 		y int

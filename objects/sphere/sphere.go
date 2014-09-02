@@ -29,7 +29,7 @@ func (s *Sphere) Parse(obj objects.ObjectConfig) (objects.Object, error) {
 	if s == nil {
 		s = &Sphere{}
 	}
-	s.position, s.R, s.color = obj.Position, obj.R, utils.RgbIntToColor(obj.Color)
+	s.position, s.R, s.color = obj.Position, obj.R, obj.Color
 	return s, nil
 }
 

@@ -1,8 +1,10 @@
 package x11
 
 import (
+	"flag"
 	"image"
 	"image/draw"
+	"os"
 
 	"code.google.com/p/x-go-binding/ui"
 	"code.google.com/p/x-go-binding/ui/x11"
@@ -13,6 +15,7 @@ import (
 )
 
 type X11Renderer struct {
+	init bool
 }
 
 func init() {
@@ -25,7 +28,7 @@ func (xr *X11Renderer) Render(rt *rt.RT, eye *rt.Eye, objs []objects.Object) err
 		return err
 	}
 	fct := func() {
-		rt.FillImage(eye.Position, objs)
+		rt.Compute(eye.Position, objs)
 		draw.Draw(w.Screen(), w.Screen().Bounds(), rt.Img, image.ZP, draw.Src)
 		w.FlushImage()
 	}
@@ -56,4 +59,14 @@ func (xr *X11Renderer) Render(rt *rt.RT, eye *rt.Eye, objs []objects.Object) err
 }
 
 func (xr *X11Renderer) Flags() {
+	if xr.init {
+		return
+	}
+	xr.init = true
+
+	display := os.Getenv("DISPLAY")
+	if display == "" {
+		display = ":0"
+	}
+	flag.StringVar(&display, "display", display, "Display to use")
 }

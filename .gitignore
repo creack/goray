@@ -22,3 +22,7 @@ _testmain.go
 *.exe
 *.test
 goray
+*.png
+*.jpg
+*.gif
+*.jpeg

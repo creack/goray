@@ -2,6 +2,14 @@ package objects
 
 import "image/color"
 
+type ObjectConfig struct {
+	Type     string
+	Position Point
+	Rotation Vector
+	Color    color.Color
+	R        int
+}
+
 func RegisterObject(name string, f NewObjectFct) {
 	ObjectList[name] = f
 }
@@ -10,18 +18,10 @@ type NewObjectFct func(ObjectConfig) (Object, error)
 
 var ObjectList = map[string]NewObjectFct{}
 
-type ObjectConfig struct {
-	Type     string `yaml:"type"`
-	Position Point  `yaml:"position"`
-	Rotation Vector `yaml:"rotation"`
-	Color    uint32 `yaml:"color"`
-	R        int    `yaml:"R"`
-}
-
 type Point struct {
-	X int `yaml:"x"`
-	Y int `yaml:"y"`
-	Z int `yaml:"z"`
+	X int
+	Y int
+	Z int
 }
 
 func (p *Point) Add(p2 Point) {
@@ -37,9 +37,9 @@ func (p *Point) Sub(p2 Point) {
 }
 
 type Vector struct {
-	X float64 `yaml:"x"`
-	Y float64 `yaml:"y"`
-	Z float64 `yaml:"z"`
+	X float64
+	Y float64
+	Z float64
 }
 
 type Object interface {

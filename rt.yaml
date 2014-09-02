@@ -1,4 +1,6 @@
-verbose: true
+window:
+  w: 800
+  h: 600
 
 eye:
   position:
