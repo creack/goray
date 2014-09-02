@@ -2,21 +2,19 @@ package main
 
 import (
 	"fmt"
-	"image"
-	"image/color"
-	"image/draw"
 	"io/ioutil"
 	"log"
 
-	"code.google.com/p/x-go-binding/ui"
-	"code.google.com/p/x-go-binding/ui/x11"
 	goyaml "gopkg.in/yaml.v1"
 
+	"github.com/creack/goray/cli"
 	"github.com/creack/goray/objects"
 	_ "github.com/creack/goray/objects/cone"
 	_ "github.com/creack/goray/objects/plan"
 	_ "github.com/creack/goray/objects/sphere"
-	"github.com/creack/goray/utils"
+	_ "github.com/creack/goray/render/file"
+	_ "github.com/creack/goray/render/x11"
+	"github.com/creack/goray/rt"
 )
 
 type Config struct {
@@ -25,12 +23,7 @@ type Config struct {
 	Objects []objects.ObjectConfig `yaml:"objects"`
 }
 
-type Eye struct {
-	Position objects.Point
-	Rotation objects.Vector
-}
-
-func parseConfigYaml(filename string) (*Eye, []objects.Object, error) {
+func parseConfigYaml(filename string) (*rt.Eye, []objects.Object, error) {
 	content, err := ioutil.ReadFile("rt.yaml")
 	if err != nil {
 		return nil, nil, err
@@ -40,7 +33,7 @@ func parseConfigYaml(filename string) (*Eye, []objects.Object, error) {
 		return nil, nil, err
 	}
 
-	eye := &Eye{
+	eye := &rt.Eye{
 		Position: conf.Eye.Position,
 		Rotation: conf.Eye.Rotation,
 	}
@@ -68,99 +61,22 @@ func parseConfigYaml(filename string) (*Eye, []objects.Object, error) {
 	return eye, objs, nil
 }
 
-type RT struct {
-	img     *image.RGBA
-	width   int
-	height  int
-	verbose bool
-}
-
-func NewRT(x, y int) *RT {
-	return &RT{
-		img:    image.NewRGBA(image.Rect(0, 0, x, y)),
-		width:  x,
-		height: y,
-	}
-}
-
-func (rt *RT) calc(x, y int, eye objects.Point, objs []objects.Object) color.Color {
-	var (
-		k   float64     = -1
-		col color.Color = color.Black
-		v               = objects.Vector{
-			X: 100,
-			Y: float64(rt.width/2 - x),
-			Z: float64(rt.height/2 - y),
-		}
-	)
-	for _, obj := range objs {
-		if tmp := obj.Intersect(v, eye); tmp > 0 && (k == -1 || tmp < k) {
-			k = tmp
-			col = obj.Color()
-		}
-	}
-	return col
-}
-
-func (rt *RT) fillImage(eye objects.Point, objs []objects.Object) {
-	var (
-		x int
-		y int
-	)
-
-	for i, total := 0, rt.width*rt.height; i < total; i++ {
-		x = i % rt.width
-		y = i / rt.width
-		if rt.verbose && x == 0 && y%10 == 0 {
-			fmt.Printf("\rProcessing: %d%%", int((float64(y)/float64(rt.height))*100+1))
-		}
-		rt.img.Set(x, y, rt.calc(x, y, eye, objs))
-	}
-	if rt.verbose {
-		fmt.Println("\rProcessing: 100%")
-	}
-}
-
 func main() {
-	eye, objs, err := parseConfigYaml("rt.yaml")
+	cliConf, err := cli.Flags()
+	if err != nil {
+		log.Fatal(err)
+	}
+	eye, objs, err := parseConfigYaml(cliConf.SceneFile)
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
-	rt := NewRT(800, 600)
-	rt.verbose = true
-	rt.fillImage(eye.Position, objs)
-	w, err := x11.NewWindow()
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-	fct := func() {
-		rt.fillImage(eye.Position, objs)
-		draw.Draw(w.Screen(), w.Screen().Bounds(), rt.img, image.ZP, draw.Src)
-		w.FlushImage()
-	}
-	fct()
-	for e := range w.EventChan() {
-		switch e := e.(type) {
-		case ui.KeyEvent:
-			switch utils.KeyListInt[e.Key] {
-			case " ", "<esc>", "\n", "q":
-				return
-			case "<up>":
-				eye.Position.X += 10
-			case "<down>":
-				eye.Position.X -= 10
-			case "<left>":
-				eye.Position.Y += 10
-			case "<right>":
-				eye.Position.Y -= 10
-			case "a":
-				eye.Position.Z += 10
-			case "z":
-				eye.Position.Z -= 10
-			}
-			fct()
-		}
+
+	rtrace := rt.NewRT(800, 600)
+	rtrace.Verbose = true
+	rtrace.FillImage(eye.Position, objs)
+
+	if err := cliConf.Renderer.Renderer.Render(rtrace, eye, objs); err != nil {
+		log.Fatal(err)
 	}
 }
