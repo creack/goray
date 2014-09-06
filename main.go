@@ -17,7 +17,7 @@ func main() {
 	}
 
 	// Parse the scene file
-	sceneConf, err := cliConf.Parser.Parser(cliConf.SceneFile)
+	sceneConf, err := cliConf.Parser.Parser.Parse(cliConf.SceneFile)
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -14,7 +14,17 @@ import (
 )
 
 func init() {
-	parser.RegisterParser("yaml", Parse)
+	parser.RegisterParser("yaml", &YAMLParser{})
+}
+
+type YAMLParser struct {
+}
+
+func (yp *YAMLParser) Extensions() []string {
+	return []string{
+		"yaml",
+		"yml",
+	}
 }
 
 func toObjectConfig(in objectConfig) objects.ObjectConfig {
@@ -36,7 +46,7 @@ func toObjectConfig(in objectConfig) objects.ObjectConfig {
 	return out
 }
 
-func Parse(filename string) (*rt.SceneConfig, error) {
+func (yp *YAMLParser) Parse(filename string) (*rt.SceneConfig, error) {
 	var conf config
 
 	if filename == "-" {

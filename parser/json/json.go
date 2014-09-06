@@ -13,7 +13,16 @@ import (
 )
 
 func init() {
-	parser.RegisterParser("json", Parse)
+	parser.RegisterParser("json", &JSONParser{})
+}
+
+type JSONParser struct {
+}
+
+func (jp *JSONParser) Extensions() []string {
+	return []string{
+		"json",
+	}
 }
 
 func toObjectConfig(in objectConfig) objects.ObjectConfig {
@@ -39,7 +48,7 @@ func toObjectConfig(in objectConfig) objects.ObjectConfig {
 	return out
 }
 
-func Parse(filename string) (*rt.SceneConfig, error) {
+func (jp *JSONParser) Parse(filename string) (*rt.SceneConfig, error) {
 	var conf config
 
 	if filename == "-" {

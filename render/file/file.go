@@ -11,12 +11,12 @@ import (
 	"github.com/creack/goray/rt"
 )
 
-type PngRenderer struct {
-	file string
-}
-
 func init() {
 	render.RegisterRenderer("png", &PngRenderer{})
+}
+
+type PngRenderer struct {
+	file string
 }
 
 func (pr *PngRenderer) pngRender(img image.Image) error {

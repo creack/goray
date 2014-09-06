@@ -3,6 +3,9 @@ package cli
 import (
 	"flag"
 	"fmt"
+	"os"
+	"path"
+	"strings"
 
 	"github.com/creack/goray/parser"
 	_ "github.com/creack/goray/parser/yaml" // default parser
@@ -38,7 +41,7 @@ func (rc RendererCLI) String() string {
 
 type ParserCLI struct {
 	name   string
-	Parser parser.ParseFct
+	Parser parser.Parser
 }
 
 func (pc *ParserCLI) Set(value string) error {
@@ -75,6 +78,8 @@ func Flags() (*CLIConfig, error) {
 	conf.Renderer.Set("x11")
 	conf.Parser.Set("yaml")
 
+	conf.Parser.name = "yaml."
+
 	// Get from command line
 	flag.Var(&conf.Renderer, "renderer", "Renderer to use.")
 	flag.Var(&conf.Parser, "parser", "Parser to use.")
@@ -86,5 +91,33 @@ func Flags() (*CLIConfig, error) {
 	if conf.SceneFile == "" {
 		return nil, fmt.Errorf("Input scene file mandatory (-scene)")
 	}
+
+	// Autodetect parser if not set.
+	if conf.Parser.name == "yaml." {
+		ext := strings.Trim(path.Ext(conf.SceneFile), ".")
+		for parserName, parse := range parser.Parsers {
+			// Skip the default parser.
+			if parserName == "yaml" {
+				continue
+			}
+			if exts := parse.Extensions(); inArray(ext, exts) {
+				conf.Parser.Set(parserName)
+			}
+		}
+	}
+
+	if conf.Verbose {
+		fmt.Fprintf(os.Stderr, "Parser: %s\nRenderer: %s\nSceneFile: %s\n", conf.Parser.name, conf.Renderer.name, conf.SceneFile)
+	}
+
 	return conf, nil
+}
+
+func inArray(s string, array []string) bool {
+	for _, v := range array {
+		if v == s {
+			return true
+		}
+	}
+	return false
 }
