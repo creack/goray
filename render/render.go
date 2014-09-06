@@ -5,8 +5,6 @@ import (
 	"github.com/creack/goray/rt"
 )
 
-type NewRendererFct func(rtrace *rt.RT, eye *rt.Eye, objs []objects.Object) error
-
 var Renderers = map[string]Renderer{}
 
 func RegisterRenderer(name string, renderer Renderer) {
