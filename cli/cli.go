@@ -4,65 +4,10 @@ import (
 	"flag"
 	"fmt"
 	"os"
-	"path"
-	"strings"
 
-	"github.com/creack/goray/parser"
 	_ "github.com/creack/goray/parser/yaml" // default parser
-	"github.com/creack/goray/render"
-	_ "github.com/creack/goray/render/x11" // default renderer
+	_ "github.com/creack/goray/render/x11"  // default renderer
 )
-
-type RendererCLI struct {
-	name     string
-	Renderer render.Renderer
-}
-
-func (rc *RendererCLI) Set(value string) error {
-	renderer, ok := render.Renderers[value]
-	if !ok {
-		possible := make([]string, len(render.Renderers))
-		i := 0
-		for k := range render.Renderers {
-			possible[i] = k
-			i++
-		}
-		return fmt.Errorf("Unkown renderer: %s. Possible values: %v", value, possible)
-	}
-	renderer.Flags()
-	rc.name = value
-	rc.Renderer = renderer
-	return nil
-}
-
-func (rc RendererCLI) String() string {
-	return rc.name
-}
-
-type ParserCLI struct {
-	name   string
-	Parser parser.Parser
-}
-
-func (pc *ParserCLI) Set(value string) error {
-	parse, ok := parser.Parsers[value]
-	if !ok {
-		possible := make([]string, len(parser.Parsers))
-		i := 0
-		for k := range parser.Parsers {
-			possible[i] = k
-			i++
-		}
-		return fmt.Errorf("Unkown parser: %s. Possible values: %v", value, possible)
-	}
-	pc.name = value
-	pc.Parser = parse
-	return nil
-}
-
-func (pc *ParserCLI) String() string {
-	return pc.name
-}
 
 type CLIConfig struct {
 	Renderer  RendererCLI
@@ -78,6 +23,7 @@ func Flags() (*CLIConfig, error) {
 	conf.Renderer.Set("x11")
 	conf.Parser.Set("yaml")
 
+	// Use different name to differenciate set/unset.
 	conf.Parser.name = "yaml."
 
 	// Get from command line
@@ -94,16 +40,16 @@ func Flags() (*CLIConfig, error) {
 
 	// Autodetect parser if not set.
 	if conf.Parser.name == "yaml." {
-		ext := strings.Trim(path.Ext(conf.SceneFile), ".")
-		for parserName, parse := range parser.Parsers {
-			// Skip the default parser.
-			if parserName == "yaml" {
-				continue
-			}
-			if exts := parse.Extensions(); inArray(ext, exts) {
-				conf.Parser.Set(parserName)
-			}
+		name := DetectParser(conf.SceneFile)
+		if name == "" {
+			return nil, fmt.Errorf("Unkown scene format: %s", conf.SceneFile)
 		}
+		if name != "yaml" {
+			conf.Parser.Set(name)
+		} else {
+			conf.Parser.name = "yaml"
+		}
+
 	}
 
 	if conf.Verbose {
@@ -111,13 +57,4 @@ func Flags() (*CLIConfig, error) {
 	}
 
 	return conf, nil
-}
-
-func inArray(s string, array []string) bool {
-	for _, v := range array {
-		if v == s {
-			return true
-		}
-	}
-	return false
 }
