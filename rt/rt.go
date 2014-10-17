@@ -56,18 +56,13 @@ func (rt *RT) calc(x, y int, eye objects.Point, objs []objects.Object) color.Col
 }
 
 func (rt *RT) Compute(eye objects.Point, objs []objects.Object) {
-	var (
-		x int
-		y int
-	)
-
-	for i, total := 0, rt.Width*rt.Height; i < total; i++ {
-		x = i % rt.Width
-		y = i / rt.Width
-		if rt.Verbose && x == 0 && y%10 == 0 {
-			fmt.Printf("\rProcessing: %d%%", int((float64(y)/float64(rt.Height))*100+1))
+	for y := 0; y < rt.Height; y++ {
+		for x := 0; x < rt.Width; x++ {
+			if rt.Verbose && x == 0 && y%10 == 0 {
+				fmt.Printf("\rProcessing: %d%%", int((float64(y)/float64(rt.Height))*100+1))
+			}
+			rt.Img.Set(x, y, rt.calc(x, y, eye, objs))
 		}
-		rt.Img.Set(x, y, rt.calc(x, y, eye, objs))
 	}
 	if rt.Verbose {
 		fmt.Printf("\rProcessing: 100%%\n")
