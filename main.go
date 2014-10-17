@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
+	"runtime"
 	"time"
 
 	"github.com/creack/goray/cli"
@@ -24,6 +25,7 @@ func main() {
 		log.Fatal(err)
 	}
 
+	runtime.GOMAXPROCS(runtime.NumCPU())
 	// Process the image
 	rtrace := rt.NewRT(sceneConf.Width, sceneConf.Height)
 	rtrace.Verbose = cliConf.Verbose
