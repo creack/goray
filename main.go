@@ -1,7 +1,9 @@
 package main
 
 import (
+	"fmt"
 	"log"
+	"time"
 
 	"github.com/creack/goray/cli"
 	_ "github.com/creack/goray/parser/all"
@@ -25,7 +27,9 @@ func main() {
 	// Process the image
 	rtrace := rt.NewRT(sceneConf.Width, sceneConf.Height)
 	rtrace.Verbose = cliConf.Verbose
+	start := time.Now().UTC()
 	rtrace.Compute(sceneConf.Eye.Position, sceneConf.Objects)
+	fmt.Printf("%0.6fms\n", time.Since(start).Seconds()*100)
 
 	// Render the image
 	if err := cliConf.Renderer.Renderer.Render(rtrace, sceneConf.Eye, sceneConf.Objects); err != nil {
