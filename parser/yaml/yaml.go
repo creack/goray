@@ -1,7 +1,7 @@
 package yaml
 
 import (
-	"encoding/json"
+	"io"
 	"io/ioutil"
 	"log"
 	"os"
@@ -14,13 +14,15 @@ import (
 )
 
 func init() {
-	parser.RegisterParser("yaml", &YAMLParser{})
+	parser.RegisterParser("yaml", &Parser{})
 }
 
-type YAMLParser struct {
+// Parser implement the GoRay parser interface for YAML scene files
+type Parser struct {
 }
 
-func (yp *YAMLParser) Extensions() []string {
+// Extensions declares the supported file types of the parser.
+func (yp *Parser) Extensions() []string {
 	return []string{
 		"yaml",
 		"yml",
@@ -46,22 +48,28 @@ func toObjectConfig(in objectConfig) objects.ObjectConfig {
 	return out
 }
 
-func (yp *YAMLParser) Parse(filename string) (*rt.SceneConfig, error) {
+// Parse reads the config from the given file (or stdin) and generate
+// the configuration object.
+func (yp *Parser) Parse(filename string) (*rt.SceneConfig, error) {
 	var conf config
 
+	var inputStream io.Reader
 	if filename == "-" {
-		if err := json.NewDecoder(os.Stdin).Decode(&conf); err != nil {
-			return nil, err
-		}
-
+		inputStream = os.Stdin
 	} else {
-		content, err := ioutil.ReadFile(filename)
+		file, err := os.Open(filename)
 		if err != nil {
 			return nil, err
 		}
-		if err := goyaml.Unmarshal(content, &conf); err != nil {
-			return nil, err
-		}
+		inputStream = file
+		defer file.Close()
+	}
+	content, err := ioutil.ReadAll(inputStream)
+	if err != nil {
+		return nil, err
+	}
+	if err := goyaml.Unmarshal(content, &conf); err != nil {
+		return nil, err
 	}
 	eye := &rt.Eye{
 		Position: objects.Point{
