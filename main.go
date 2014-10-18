@@ -61,16 +61,9 @@ func main() {
 	rtrace := rt.NewRT(sceneConf.Width, sceneConf.Height)
 	rtrace.Verbose = cliConf.Verbose
 
-	for name, fct := range map[string]func(eye objects.Point, objs []objects.Object){
-		//		"origin":         rtrace.ComputeOrigin,
-		"sema":           rtrace.ComputeSemaphone,
-		"workerDirect":   rtrace.Compute,
-		"workerIndirect": rtrace.ComputeChanResult,
-	} {
-		start := time.Now().UTC()
-		fct(sceneConf.Eye.Position, sceneConf.Objects)
-		fmt.Printf("%s:\t%0.6fms\n", name, time.Since(start).Seconds()*100)
-	}
+	start := time.Now().UTC()
+	rtrace.Compute(sceneConf.Eye.Position, sceneConf.Objects)
+	fmt.Printf("%0.6fs\n", time.Since(start).Seconds())
 
 	// Render the image
 	if err := cliConf.Renderer.Renderer.Render(rtrace, sceneConf.Eye, sceneConf.Objects); err != nil {

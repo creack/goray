@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"image"
 	"image/color"
-	"runtime"
 
 	"sync"
 
@@ -64,6 +63,8 @@ type workQueue struct {
 	fct  func(x, y int, eye objects.Point, objs []objects.Object) color.Color
 	h, w int
 	c    chan int
+	wg   sync.WaitGroup
+	rc   chan []workReponse
 }
 
 type workReponse struct {
@@ -71,130 +72,60 @@ type workReponse struct {
 	c    color.Color
 }
 
-// Compute .
-func (rt *RT) ComputeChanResult(eye objects.Point, objs []objects.Object) {
-	rc := make(chan []workReponse, rt.Height)
-	c := make(chan int, 100)
-	wg := sync.WaitGroup{}
-	for i := 0; i < 8; i++ {
-		go func() {
-			wg.Add(1)
-			for {
-				y, ok := <-c
-				if !ok {
-					wg.Done()
-					return
-				}
-				resp := make([]workReponse, rt.Width)
-				for x := 0; x < rt.Width; x++ {
-					if rt.Verbose && x == 0 && y%10 == 0 {
-						fmt.Printf("\rProcessing: %d%%", int((float64(y)/float64(rt.Height))*100+1))
-					}
-					resp[x].x, resp[x].y, resp[x].c = x, y, rt.calc(x, y, eye, objs)
-				}
-				rc <- resp
-			}
-		}()
+func newWorker(wq *workQueue) {
+	wq.wg.Add(1)
+	for {
+		y, ok := <-wq.c
+		if !ok {
+			wq.wg.Done()
+			return
+		}
+		resp := make([]workReponse, wq.w)
+		for x := 0; x < wq.w; x++ {
+			resp[x].x, resp[x].y, resp[x].c = x, y, wq.fct(x, y, wq.eye, wq.objs)
+		}
+		wq.rc <- resp
 	}
-	for y := 0; y < rt.Height; y++ {
-		c <- y
-	}
-	close(c)
-	go func() {
-		wg.Wait()
-		close(rc)
-	}()
+}
 
-	for ress := range rc {
+func (wq *workQueue) startWorkers(nWorkers int) {
+	for i := 0; i < nWorkers; i++ {
+		go newWorker(wq)
+	}
+}
+
+// Finish ends the queue. Non Blocking. Expect user to block on response chan.
+func (wq *workQueue) Finish() {
+	go func() {
+		close(wq.c)
+		wq.wg.Wait()
+		close(wq.rc)
+	}()
+}
+
+// Compute .
+func (rt *RT) Compute(eye objects.Point, objs []objects.Object) {
+	wq := &workQueue{
+		rc:   make(chan []workReponse, rt.Height),
+		c:    make(chan int, 100),
+		w:    rt.Width,
+		h:    rt.Height,
+		fct:  rt.calc,
+		objs: objs,
+		eye:  eye,
+	}
+	wq.startWorkers(8)
+	for y := 0; y < rt.Height; y++ {
+		wq.c <- y
+	}
+	wq.Finish()
+
+	for ress := range wq.rc {
 		for _, res := range ress {
 			rt.Img.Set(res.x, res.y, res.c)
 		}
 	}
 
-	// rt.Img.Set(x, y,
-	if rt.Verbose {
-		fmt.Printf("\rProcessing: 100%%\n")
-	}
-}
-
-// Compute .
-func (rt *RT) Compute(eye objects.Point, objs []objects.Object) {
-	c := make(chan int)
-	wg := sync.WaitGroup{}
-	for i := 0; i < 8; i++ {
-		go func() {
-			wg.Add(1)
-			for {
-				y, ok := <-c
-				if !ok {
-					wg.Done()
-					return
-				}
-				for x := 0; x < rt.Width; x++ {
-					if rt.Verbose && x == 0 && y%10 == 0 {
-						fmt.Printf("\rProcessing: %d%%", int((float64(y)/float64(rt.Height))*100+1))
-					}
-					rt.Img.Set(x, y, rt.calc(x, y, eye, objs))
-				}
-			}
-		}()
-	}
-	for y := 0; y < rt.Height; y++ {
-		c <- y
-	}
-	// for i, total := 0, rt.Width*rt.Height; i < total; i++ {
-	// 	wq.c <- i
-	// }
-	close(c)
-	wg.Wait()
-
-	// rt.Img.Set(x, y,
-	if rt.Verbose {
-		fmt.Printf("\rProcessing: 100%%\n")
-	}
-}
-
-func (rt *RT) ComputeSemaphone(eye objects.Point, objs []objects.Object) {
-	max := runtime.NumCPU()
-	c := make(chan struct{}, max)
-	for i := 0; i < max; i++ {
-		c <- struct{}{}
-	}
-	for y := 0; y < rt.Height; y++ {
-		<-c
-		go func(y int) {
-			for x := 0; x < rt.Width; x++ {
-				if rt.Verbose && x == 0 && y%10 == 0 {
-					fmt.Printf("\rProcessing: %d%%", int((float64(y)/float64(rt.Height))*100+1))
-				}
-				rt.Img.Set(x, y, rt.calc(x, y, eye, objs))
-			}
-			c <- struct{}{}
-		}(y)
-	}
-	for i := len(c); i < max; i++ {
-		<-c
-	}
-	close(c)
-	if rt.Verbose {
-		fmt.Printf("\rProcessing: 100%%\n")
-	}
-}
-
-func (rt *RT) ComputeOrigin(eye objects.Point, objs []objects.Object) {
-	var (
-		x int
-		y int
-	)
-
-	for i, total := 0, rt.Width*rt.Height; i < total; i++ {
-		x = i % rt.Width
-		y = i / rt.Width
-		if rt.Verbose && x == 0 && y%10 == 0 {
-			fmt.Printf("\rProcessing: %d%%", int((float64(y)/float64(rt.Height))*100+1))
-		}
-		rt.Img.Set(x, y, rt.calc(x, y, eye, objs))
-	}
 	if rt.Verbose {
 		fmt.Printf("\rProcessing: 100%%\n")
 	}
