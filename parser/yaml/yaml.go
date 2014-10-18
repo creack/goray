@@ -48,26 +48,9 @@ func toObjectConfig(in objectConfig) objects.ObjectConfig {
 	return out
 }
 
-// Parse reads the config from the given file (or stdin) and generate
-// the configuration object.
-func (yp *Parser) Parse(filename string) (*rt.SceneConfig, error) {
+func ParseBuffer(content []byte) (*rt.SceneConfig, error) {
 	var conf config
 
-	var inputStream io.Reader
-	if filename == "-" {
-		inputStream = os.Stdin
-	} else {
-		file, err := os.Open(filename)
-		if err != nil {
-			return nil, err
-		}
-		inputStream = file
-		defer file.Close()
-	}
-	content, err := ioutil.ReadAll(inputStream)
-	if err != nil {
-		return nil, err
-	}
 	if err := goyaml.Unmarshal(content, &conf); err != nil {
 		return nil, err
 	}
@@ -110,6 +93,27 @@ func (yp *Parser) Parse(filename string) (*rt.SceneConfig, error) {
 		Eye:     eye,
 		Objects: objs,
 	}, nil
+}
+
+// Parse reads the config from the given file (or stdin) and generate
+// the configuration object.
+func (yp *Parser) Parse(filename string) (*rt.SceneConfig, error) {
+	var inputStream io.Reader
+	if filename == "-" {
+		inputStream = os.Stdin
+	} else {
+		file, err := os.Open(filename)
+		if err != nil {
+			return nil, err
+		}
+		inputStream = file
+		defer file.Close()
+	}
+	content, err := ioutil.ReadAll(inputStream)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBuffer(content)
 }
 
 type config struct {

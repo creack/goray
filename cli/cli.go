@@ -14,6 +14,7 @@ type CLIConfig struct {
 	Parser    ParserCLI
 	SceneFile string
 	Verbose   bool
+	Worker    bool
 }
 
 func Flags() (*CLIConfig, error) {
@@ -31,11 +32,16 @@ func Flags() (*CLIConfig, error) {
 	flag.Var(&conf.Parser, "parser", "Parser to use.")
 	flag.StringVar(&conf.SceneFile, "scene", "", "Scene file to render")
 	flag.BoolVar(&conf.Verbose, "v", false, "Verbose")
+	flag.BoolVar(&conf.Worker, "w", false, "Worker mode")
 	flag.Parse()
+
+	if conf.SceneFile == "" && conf.Worker {
+		return conf, nil
+	}
 
 	// Validate input
 	if conf.SceneFile == "" {
-		return nil, fmt.Errorf("Input scene file mandatory (-scene)")
+		return nil, fmt.Errorf("Input scene file mandatory (-scene) for non worker operations")
 	}
 
 	// Autodetect parser if not set.

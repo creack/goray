@@ -8,9 +8,11 @@ import (
 	"sync"
 
 	"github.com/creack/goray/objects"
+	// Load all available objects
 	_ "github.com/creack/goray/objects/all"
 )
 
+// RT is our main controller which holds the image and general params.
 type RT struct {
 	Img     *image.RGBA
 	Width   int
@@ -18,11 +20,13 @@ type RT struct {
 	Verbose bool
 }
 
+// Eye represents the camera. It is a point with a direction.
 type Eye struct {
 	Position objects.Point
 	Rotation objects.Vector
 }
 
+// SceneConfig represents the Scene parameters
 type SceneConfig struct {
 	Height  int
 	Width   int
@@ -30,6 +34,7 @@ type SceneConfig struct {
 	Objects []objects.Object
 }
 
+// NewRT instantiate the main controller
 func NewRT(w, h int) *RT {
 	return &RT{
 		Img:    image.NewRGBA(image.Rect(0, 0, w, h)),
@@ -39,13 +44,17 @@ func NewRT(w, h int) *RT {
 }
 
 func (rt *RT) calc(x, y int, eye objects.Point, objs []objects.Object) color.Color {
+	return Calc(rt.Height, rt.Width, x, y, eye, objs)
+}
+
+func Calc(height, width, x, y int, eye objects.Point, objs []objects.Object) color.Color {
 	var (
 		k   float64     = -1
 		col color.Color = color.Black
 		v               = objects.Vector{
 			X: 100,
-			Y: float64(rt.Width/2 - x),
-			Z: float64(rt.Height/2 - y),
+			Y: float64(width/2 - x),
+			Z: float64(height/2 - y),
 		}
 	)
 	for _, obj := range objs {
@@ -62,7 +71,7 @@ type workQueue struct {
 	objs []objects.Object
 	fct  func(x, y int, eye objects.Point, objs []objects.Object) color.Color
 	h, w int
-	c    chan int
+	c    chan workData
 	wg   sync.WaitGroup
 	rc   chan []workReponse
 }
@@ -82,7 +91,7 @@ func newWorker(wq *workQueue) {
 		}
 		resp := make([]workReponse, wq.w)
 		for x := 0; x < wq.w; x++ {
-			resp[x].x, resp[x].y, resp[x].c = x, y, wq.fct(x, y, wq.eye, wq.objs)
+			resp[x].x, resp[x].y, resp[x].c = x, y.y, wq.fct(x, y.y, wq.eye, wq.objs)
 		}
 		wq.rc <- resp
 	}
@@ -103,11 +112,17 @@ func (wq *workQueue) Finish() {
 	}()
 }
 
+type workData *wworkData
+
+type wworkData struct {
+	y int
+}
+
 // Compute .
 func (rt *RT) Compute(eye objects.Point, objs []objects.Object) {
 	wq := &workQueue{
 		rc:   make(chan []workReponse, rt.Height),
-		c:    make(chan int, 100),
+		c:    make(chan workData),
 		w:    rt.Width,
 		h:    rt.Height,
 		fct:  rt.calc,
@@ -116,7 +131,7 @@ func (rt *RT) Compute(eye objects.Point, objs []objects.Object) {
 	}
 	wq.startWorkers(8)
 	for y := 0; y < rt.Height; y++ {
-		wq.c <- y
+		wq.c <- &wworkData{y: y}
 	}
 	wq.Finish()
 
@@ -129,4 +144,7 @@ func (rt *RT) Compute(eye objects.Point, objs []objects.Object) {
 	if rt.Verbose {
 		fmt.Printf("\rProcessing: 100%%\n")
 	}
+}
+
+func startQueue() {
 }

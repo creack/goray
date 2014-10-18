@@ -997,3 +997,9573 @@ objects:
   -   type:	plan
       color:	0xFF0000
       z:	200
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
+
+  -   type:	sphere
+      position:
+        x: 100
+        y: 0
+        z: 0
+      R:	100
+      color:	0xFFFF00
+
+  -  type:	sphere
+     position:
+        x: 100
+        y: 200
+        z: -10
+     R:		150
+     color:	0x0000FF
+  -  type:	cone
+     position:
+        x: 50
+        y: -100
+        z: -30
+     R:		40
+     color:	0x00FF00
+  -   type:	plan
+      color:	0xFF0000
+      z:	200
