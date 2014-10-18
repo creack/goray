@@ -8,6 +8,7 @@ import (
 	"flag"
 	"fmt"
 	"image/color"
+	"io"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -87,6 +88,7 @@ func nsqSubscribe(topicName, channelName string, hdlr nsq.HandlerFunc) error {
 }
 
 func nsqPublish(topicName string, data interface{}) error {
+	println("Publish on", topicName)
 	d, err := json.Marshal(data)
 	if err != nil {
 		return err
@@ -96,20 +98,27 @@ func nsqPublish(topicName string, data interface{}) error {
 		return err
 	}
 	if resp.StatusCode != 200 {
+		io.Copy(os.Stderr, resp.Body)
 		return fmt.Errorf("Error publishing: %d\n", resp.StatusCode)
 	}
 	return nil
 }
 
 func nsqMPublish(topicName string, data []interface{}) error {
+	println("MPublish on", topicName)
 	var body string
+	i := 0
 	for _, elem := range data {
 		d, err := json.Marshal(elem)
 		if err != nil {
 			return err
 		}
+		i++
+		println("----->", i)
+		go nsqPublish(topicName, elem)
 		body += string(d) + "\n"
 	}
+	return nil
 	body = strings.TrimRight(body, "\n")
 	resp, err := http.Post(httpAddr+"/mpub?topic="+topicName, "application/json", strings.NewReader(body))
 	if err != nil {
@@ -152,9 +161,9 @@ type workReponse struct {
 }
 
 func (j *job) process(msg *nsq.Message) error {
-	// rand, _ := randomBuf(6)
-	// println("Start process", j.ID, string(rand))
-	// defer println("Finish Process", j.ID, string(rand))
+	rand, _ := randomBuf(6)
+	println("Start process", j.ID, string(rand))
+	defer println("Finish Process", j.ID, string(rand))
 
 	var data workRequest
 	if err := json.Unmarshal(msg.Body, &data); err != nil {
