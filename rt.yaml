@@ -1,24 +1,25 @@
 window:
-  w: 800
-  h: 600
+  w: 1920
+  h: 1080
 
 eye:
   position:
     x: -300
     y: 0
-    z: 100
+    z: 0
 
 objects:
   -   type:	plan
       color:	0xFF0000
-      z:	200
+      position:
+        z:	-10
 
   -   type:	sphere
       position:
-        x: 100
+        x: 0
         y: 0
         z: 0
-      R:	100
+      R:	50
       color:	0xFFFF00
 
   -  type:	sphere
@@ -26,7 +27,7 @@ objects:
         x: 100
         y: 200
         z: -10
-     R:		150
+     R:		100
      color:	0x0000FF
 
   -  type:	cone
@@ -34,5 +35,5 @@ objects:
         x: 50
         y: -100
         z: -30
-     R:		40
+     R:		1
      color:	0x00FF00

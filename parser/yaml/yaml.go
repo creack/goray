@@ -104,6 +104,9 @@ func (yp *Parser) Parse(filename string) (*rt.SceneConfig, error) {
 		conf.Window.Height = 600
 	}
 
+	// kr/pretty
+	//	pretty.Printf("----> % #v\n", objs)
+
 	return &rt.SceneConfig{
 		Height:  conf.Window.Height,
 		Width:   conf.Window.Width,

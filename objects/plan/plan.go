@@ -36,5 +36,5 @@ func (p *Plan) Intersect(v objects.Vector, eye objects.Point) float64 {
 	if v.Z == 0 {
 		return 0
 	}
-	return -float64(eye.Z+p.z) / v.Z
+	return -float64(eye.Z-p.z) / v.Z
 }
