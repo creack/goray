@@ -8,15 +8,11 @@
 ## Last update Fri Feb 17 10:01:07 2012 julien fortin
 ##
 
-RM	= rm -f
 
-NAME	= libmy
-
+NAME	= libmy.a
 CC	= gcc
-
 CFLAGS	= -W -Wall -Wextra -I.
-
-SRC	= my_convert_base.c \
+SRCS	= my_convert_base.c \
 	  my_errors.c \
 	  my_free.c \
 	  my_nbr.c \
@@ -28,19 +24,18 @@ SRC	= my_convert_base.c \
 	  my_string.c \
 	  my_string_dup.c \
 	  my_strcmp.c
+OBJS	= $(SRCS:.c=.o)
 
-OBJ	= $(SRC:.c=.o)
+all	:	$(NAME)
 
-all: $(NAME)
+$(NAME)	:	$(OBJS)
+	ar rc $(NAME) $(OBJS)
+	ranlib $(NAME)
 
-$(NAME): $(OBJ)
-	ar rc $(NAME).a $(OBJ)
-	ranlib $(NAME).a
+clean	:
+	$(RM) $(OBJS)
 
-clean:
-	$(RM) $(OBJ)
-
-fclean: clean
+fclean	:	clean
 	$(RM) $(NAME)
 
 re:	fclean all

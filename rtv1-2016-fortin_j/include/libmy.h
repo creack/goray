@@ -9,9 +9,10 @@
 */
 
 #ifndef __LIBMY_H__
-#define __LIBMY_H__
+# define __LIBMY_H__
 
-#include	<stdarg.h>
+// This should not be in the .h
+# include	<stdarg.h>
 
 char	*my_convert_base(unsigned int nb, char *base);
 char	*my_strcat(char *str1, char *str2);
@@ -51,4 +52,4 @@ void	my_putstr_error(char *str);
 void	xexit(char *str);
 void    *xmalloc(int size);
 
-#endif
+#endif /* !__LIBMY_H__ */

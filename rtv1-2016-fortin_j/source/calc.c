@@ -40,7 +40,7 @@ int	brightness(int color, int spot_color, double coef, double a)
   return (obj.color);
 }
 
-int	my_light(t_obj *obj, t_spot *spot)
+int		my_light(t_obj *obj, t_spot *spot)
 {
   t_color	color;
   double	lx;
@@ -66,9 +66,9 @@ int	my_light(t_obj *obj, t_spot *spot)
   return (brightness(color.color, spot->color, obj->bright, a));
 }
 
-int	get_color(t_obj *obj, t_spot *spot)
+int		get_color(t_obj *obj, t_spot *spot)
 {
-  t_obj	*tmp;
+  t_obj		*tmp;
   double	k;
 
   k = STOP;
@@ -87,10 +87,10 @@ int	get_color(t_obj *obj, t_spot *spot)
   return (my_light(tmp, spot));
 }
 
-int	calc(t_expose *expose, int x, int y)
+int		calc(t_expose *expose, int x, int y)
 {
   t_scene	*scene;
-  t_obj	*obj;
+  t_obj		*obj;
 
   obj = expose->t_obj;
   scene = my_init_scene(x, y);

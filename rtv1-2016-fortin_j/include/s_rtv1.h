@@ -9,70 +9,75 @@
 */
 
 #ifndef	__S_RTV1__
-#define	__S_RTV1__
+# define __S_RTV1__
 
-#define	WIN_X	1000
-#define	WIN_Y	1000
-#define	D	-1000
+# define WIN_X	1000
+# define WIN_Y	1000
+# define D	-1000
 
-#define SQR(x)	((x) * (x))
-#define RAD(x)	(((x) * (3.14159265)) / 180)
+# define SQR(x)	((x) * (x))
+# define RAD(x)	(((x) * (3.14159265)) / 180)
 
-enum { PLAN, SPH, CYL, CONE };
+enum {
+  PLAN,
+  SPH,
+  CYL,
+  CONE,
+};
 
-typedef struct s_mlx
+typedef struct	s_mlx
 {
-  void  *mlx_ptr;
-  void  *win_ptr;
-} t_mlx;
+  void		*mlx_ptr;
+  void		*win_ptr;
+}		t_mlx;
 
-typedef struct s_inter
+typedef struct	s_inter
 {
   double	x;
   double	y;
   double	z;
   double	k;
-} t_inter;
+}		t_inter;
 
-typedef struct s_spot
+typedef struct	s_spot
 {
   double	x;
   double	y;
   double	z;
-  int	color;
+  int		color;
   struct s_spot	*next;
-} t_spot;
+}		t_spot;
 
-typedef struct s_img
+typedef struct	s_img
 {
-  void  *img_ptr;
-  char  *data;
-  int   sizeline;
-  int   endian;
-  int   bytes;
-  int   x;
-  int   y;
-} t_img;
+  void		*img_ptr;
+  char		*data;
+  int		sizeline;
+  int		endian;
+  int		bytes;
+  int		x;
+  int		y;
+}		t_img;
 
-typedef struct s_obj
+typedef struct		s_obj
 {
-  int	type;
-  int	x;
-  int	y;
-  int	z;
-  int	r;
-  int	x_rot;
-  int	y_rot;
-  int	z_rot;
-  int	color;
-  double	bright;
-  double	angle;
-  double	k;
-  struct s_obj	*next;
+  int			type;
+  int			x;
+  int			y;
+  int			z;
+  int			r;
+  int			x_rot;
+  int			y_rot;
+  int			z_rot;
+  int			color;
+  double		bright;
+  double		angle;
+  double		k;
+  struct s_obj		*next;
   struct s_inter	*inter;
-} t_obj;
+}			t_obj;
 
-typedef struct s_scene
+typedef struct	s_scene
 {
   double	x_oeil;
   double	y_oeil;
@@ -83,20 +88,20 @@ typedef struct s_scene
   double	vx;
   double	vy;
   double	vz;
-} t_scene;
+}		t_scene;
 
-typedef struct s_expose
+typedef struct	s_expose
 {
-  t_mlx *t_mlx;
-  t_img *t_img;
-  t_obj	*t_obj;
+  t_mlx		*t_mlx;
+  t_img		*t_img;
+  t_obj		*t_obj;
   t_spot	*t_spot;
-} t_expose;
+}		t_expose;
 
-typedef union
+typedef union	u_color
 {
-  unsigned int  color;
-  unsigned char rgb[4];
-} t_color;
+  unsigned int	color;
+  unsigned char	rgb[4];
+}		t_color;
 
-#endif
+#endif /* !__S_RTV1__ */

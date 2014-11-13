@@ -34,4 +34,4 @@ $(NAME)	: $(OBJ)
 
 
 clean	:
-	rm -f $(OBJ) $(NAME) *~ core *.core
+	rm -f $(OBJ) $(NAME) libmlx_$(HOSTTYPE).a *~ core *.core

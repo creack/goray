@@ -27,7 +27,7 @@ void	change_scene(t_scene *scene, t_obj *obj)
     scene->z_oeil += obj->z;
 }
 
-t_scene	*save_scene(t_scene *scene, t_obj *obj, int i)
+t_scene		*save_scene(t_scene *scene, t_obj *obj, int i)
 {
   static double	x_oeil;
   static double	y_oeil;
@@ -49,7 +49,7 @@ t_scene	*save_scene(t_scene *scene, t_obj *obj, int i)
   return (scene);
 }
 
-t_inter	*add_inter_sphere(t_scene *scene, double lambda)
+t_inter		*add_inter_sphere(t_scene *scene, double lambda)
 {
   t_inter	*inter;
 
@@ -60,7 +60,7 @@ t_inter	*add_inter_sphere(t_scene *scene, double lambda)
   return (inter);
 }
 
-double	calc_sphere(t_scene *scene, t_obj *obj)
+double		calc_sphere(t_scene *scene, t_obj *obj)
 {
   double	a;
   double	b;
