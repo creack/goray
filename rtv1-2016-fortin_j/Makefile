@@ -9,42 +9,44 @@
 ##
 
 NAME	= rtv1
-CC		= gcc
-CFLAGS	= -W -Wall -Wextra -I./include/ -I/opt/X11/include
-DIR		= ./source/
-LDFLAGS	= -L$(DIR)libmy/ -lmy -lmlx -L/opt/X11/lib -L/usr/lib64/X11 -lXext -lX11 -lm -O3
-SRCS	= $(DIR)main.c 								 \
-		  $(DIR)mlx_ppti.c 							 \
-		  $(DIR)my_expose.c 						 \
-		  $(DIR)my_free.c 							 \
-		  $(DIR)my_init.c 							 \
-		  $(DIR)my_init_obj.c 						 \
-		  $(DIR)my_init_sphere.c 					 \
-		  $(DIR)my_init_cyl.c 						 \
-		  $(DIR)my_init_cyl_thereturn.c 			 \
-		  $(DIR)my_init_cone.c 						 \
-		  $(DIR)my_init_sphere_thereturn.c 			 \
-		  $(DIR)my_init_sphere_thereturn_and_again.c \
-		  $(DIR)my_init_spot.c 						 \
-		  $(DIR)calc.c 								 \
-		  $(DIR)calc_sphere.c 						 \
-		  $(DIR)calc_plan.c 						 \
-		  $(DIR)calc_cone.c 						 \
-		  $(DIR)calc_cyl.c
+CC	= gcc
+CFLAGS	= -W -Wall -Wextra -I./include/ -Ilib/minilibx -I/opt/X11/include  -O3
+DIR	= ./source/
+LDFLAGS	= -Llib/libmy/ -Llib/minilibx -lmy -lmlx -L/opt/X11/lib -L/usr/lib64/X11 -lXext -lX11 -lm
+SRCS	= $(DIR)main.c 					\
+	  $(DIR)mlx_ppti.c 				\
+	  $(DIR)my_expose.c 				\
+	  $(DIR)my_free.c 				\
+	  $(DIR)my_init.c 				\
+	  $(DIR)my_init_obj.c 				\
+	  $(DIR)my_init_sphere.c 			\
+	  $(DIR)my_init_cyl.c 				\
+	  $(DIR)my_init_cyl_thereturn.c 		\
+	  $(DIR)my_init_cone.c 				\
+	  $(DIR)my_init_sphere_thereturn.c 	 	\
+	  $(DIR)my_init_sphere_thereturn_and_again.c	\
+	  $(DIR)my_init_spot.c 				\
+	  $(DIR)calc.c 					\
+	  $(DIR)calc_sphere.c 				\
+	  $(DIR)calc_plan.c 				\
+	  $(DIR)calc_cone.c 				\
+	  $(DIR)calc_cyl.c
 OBJS	= $(SRCS:.c=.o)
 
-all		: $(NAME)
+all	: $(NAME)
 
 $(NAME)	: $(OBJS)
-		$(MAKE) -C $(DIR)/libmy/
-		$(CC) -o $(NAME) $(OBJS) $(LDFLAGS)
+	$(MAKE) -C lib/libmy/
+	$(MAKE) -C lib/minilibx/
+	$(CC) -o $(NAME) $(OBJS) $(LDFLAGS)
 
 clean	:
-		$(MAKE) -C $(DIR)libmy/ clean
-		$(RM) $(OBJS)
+	$(MAKE) -C lib/libmy/ clean
+	$(MAKE) -C lib/minilibx/ clean
+	$(RM) $(OBJS)
 
 fclean	: clean
 	$(RM) $(NAME)
 
-re		: fclean all
+re	: fclean all
 
