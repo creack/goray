@@ -62,6 +62,10 @@ func Flags() (*Config, error) {
 
 	flag.Parse()
 
+	// TODO(creack): Remove this
+	if conf.SceneFile == "" {
+		conf.SceneFile = "scene.json"
+	}
 	// Validate input
 	if conf.SceneFile == "" {
 		return nil, fmt.Errorf("Input scene file missing (-scene)")

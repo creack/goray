@@ -19,7 +19,7 @@ func main() {
 	// Parse the scene file
 	sceneConf, err := cliConf.Parser.Parser.Parse(cliConf.SceneFile)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatalf("parse: %s", err)
 	}
 
 	// Process the image
@@ -29,6 +29,6 @@ func main() {
 
 	// Render the image
 	if err := cliConf.Renderer.Renderer.Render(rtrace, sceneConf.Eye, sceneConf.Objects); err != nil {
-		log.Fatal(err)
+		log.Fatalf("render: %s", err)
 	}
 }

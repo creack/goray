@@ -1,6 +1,9 @@
 package objects
 
-import "image/color"
+import (
+	"fmt"
+	"image/color"
+)
 
 // ObjectConfig represent an object configuraton.
 type ObjectConfig struct {
@@ -13,6 +16,7 @@ type ObjectConfig struct {
 
 // RegisterObject registers an object.
 // Used by the underlying implementations.
+// TODO: Rename this in `Register`
 func RegisterObject(name string, f NewObjectFct) {
 	ObjectList[name] = f
 }
@@ -45,11 +49,19 @@ func (p *Point) Sub(p2 Point) {
 	p.Z -= p2.Z
 }
 
+func (p Point) String() string {
+	return fmt.Sprintf("{%d, %d, %d}", p.X, p.Y, p.Z)
+}
+
 // Vector represents a vector.
 type Vector struct {
 	X float64
 	Y float64
 	Z float64
+}
+
+func (v Vector) String() string {
+	return fmt.Sprintf("{%f, %f, %f}", v.X, v.Y, v.Z)
 }
 
 // Object is the Object's interface.
