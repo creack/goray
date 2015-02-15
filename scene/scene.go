@@ -32,7 +32,7 @@ type Eye struct {
 type Config struct {
 	Height  int
 	Width   int
-	Eye     *Eye
+	Eye     Eye
 	Objects []objects.Object
 }
 

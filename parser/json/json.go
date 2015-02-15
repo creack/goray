@@ -71,7 +71,7 @@ func (p *Parser) Parse(filename string) (*scene.Config, error) {
 		}
 	}
 
-	eye := &scene.Eye{
+	eye := scene.Eye{
 		Position: objects.Point{
 			X: conf.Eye.Position.X,
 			Y: conf.Eye.Position.Y,

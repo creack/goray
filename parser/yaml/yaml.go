@@ -74,7 +74,7 @@ func (yp *Parser) Parse(filename string) (*scene.Config, error) {
 	if err := yaml.Unmarshal(content, &conf); err != nil {
 		return nil, err
 	}
-	eye := &scene.Eye{
+	eye := scene.Eye{
 		Position: objects.Point{
 			X: conf.Eye.Position.X,
 			Y: conf.Eye.Position.Y,
