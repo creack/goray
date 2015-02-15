@@ -2,6 +2,7 @@ package json
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"os"
@@ -29,7 +30,7 @@ func (p *Parser) Extensions() []string {
 
 // toObjectConfig maps the local configuration object to the
 // common Object's one.
-func toObjectConfig(in objectConfig) objects.ObjectConfig {
+func toObjectConfig(in objectConfig) (objects.ObjectConfig, error) {
 	out := objects.ObjectConfig{
 		Type: in.Type,
 		Position: objects.Point{
@@ -46,10 +47,10 @@ func toObjectConfig(in objectConfig) objects.ObjectConfig {
 	}
 	c, err := utils.DecodeColor(in.Color)
 	if err != nil {
-		log.Printf("Error decoding color: %s", err)
+		return out, fmt.Errorf("Error decoding %q: %s", in.Color, err)
 	}
 	out.Color = c
-	return out
+	return out, nil
 }
 
 // Parse parses the given filename into a RT configuration.
@@ -70,7 +71,6 @@ func (p *Parser) Parse(filename string) (*scene.Config, error) {
 			return nil, err
 		}
 	}
-
 	eye := scene.Eye{
 		Position: objects.Point{
 			X: conf.Eye.Position.X,
@@ -90,7 +90,11 @@ func (p *Parser) Parse(filename string) (*scene.Config, error) {
 			log.Printf("Unkown section: %s, skipping", obj.Type)
 			continue
 		}
-		obj, err := newObjFct(toObjectConfig(obj))
+		objConfig, err := toObjectConfig(obj)
+		if err != nil {
+			return nil, err
+		}
+		obj, err := newObjFct(objConfig)
 		if err != nil {
 			return nil, err
 		}

@@ -110,7 +110,7 @@ func Delta(a, b, c float64) float64 {
 
 // SecondDegree is a small helper to solve
 // the given 2nd degree equation.
-// (a^2 * x + b * x + c = 0
+// (a * x^2 + b * x + c = 0
 // Returns the smallest positive solution.
 // Returns 0 when no solution.
 func SecondDegree(a, b, c float64) float64 {
