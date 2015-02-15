@@ -46,7 +46,7 @@ func (s *Sphere) Intersect(v objects.Vector, eye objects.Point) float64 {
 	var (
 		a = v.X*v.X + v.Y*v.Y + v.Z*v.Z
 		b = 2*float64(eye.X)*v.X + float64(eye.Y)*v.Y + float64(eye.Z)*v.Z
-		c = float64(eye.X*eye.X - s.R*s.R)
+		c = float64(eye.X*eye.X + eye.Y*eye.Y + eye.Z*eye.Z - s.R*s.R)
 	)
 	return utils.SecondDegree(a, b, c)
 }

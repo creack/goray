@@ -1,45 +1,46 @@
 {
     "window": {
-	"w": 800,
-	"h": 600
+	"w": 200,
+	"h": 200
     },
     "eye": {
 	"position": {
 	    "x": -300,
 	    "y": 0,
-	    "z": 100
+	    "z": 200
 	}
     },
-    "objects": [{
-	"type": "plan",
-	"color": "0xFF0000",
-	"z": 200
-    }, {
-	"type": "sphere",
-	"position": {
-	    "x": 100,
-	    "y": 0,
-	    "z": 0
+    "objects": [
+	{
+	    "type": "plan",
+	    "color": "purple",
+	    "position": {
+		"z": 0
+	    }
 	},
-	"R": 100,
-	"color": "0xFFFF00"
-    }, {
-	"type": "sphere",
-	"position": {
-	    "x": 100,
-	    "y": 200,
-	    "z": -10
+	{
+	    "type": "plan",
+	    "color": "red",
+	    "position": {
+		"z": 100
+	    }
 	},
-	"R": 150,
-	"color": "0x0000FF"
-    }, {
-	"type": "cone",
-	"position": {
-	    "x": 50,
-	    "y": -100,
-	    "z": -30
+	{
+	    "type": "plan",
+	    "color": "green",
+	    "position": {
+		"z": -100
+	    }
 	},
-	"R": 40,
-	"color": "0x00FF00"
-    }]
+	{
+	    "type": "sphere",
+	    "position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	    },
+	    "R": 210,
+	    "color": "yellow"
+	}
+    ]
 }
