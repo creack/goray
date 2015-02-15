@@ -2,7 +2,7 @@ package render
 
 import (
 	"github.com/creack/goray/objects"
-	"github.com/creack/goray/rt"
+	"github.com/creack/goray/scene"
 )
 
 // Rendereres hold all the available Renderer.
@@ -19,7 +19,7 @@ func RegisterRenderer(name string, renderer Renderer) {
 type Renderer interface {
 	// Render renders the scene (`rt`) with the object list
 	// From the `eye` perspective.
-	Render(rt *rt.RT, eye *rt.Eye, objs []objects.Object) error
+	Render(s *scene.Scene, eye *scene.Eye, objs []objects.Object) error
 	// Flags extends the CLI with implementation specific flags.
 	Flags()
 }

@@ -10,7 +10,7 @@ import (
 	"code.google.com/p/x-go-binding/ui/x11"
 	"github.com/creack/goray/objects"
 	"github.com/creack/goray/render"
-	"github.com/creack/goray/rt"
+	"github.com/creack/goray/scene"
 	"github.com/creack/goray/utils"
 )
 
@@ -26,14 +26,14 @@ func init() {
 // Render renders the given scene (`rt`) with the given object list
 // From the `eye` perspective.
 // Renders on X11.
-func (r *Renderer) Render(rt *rt.RT, eye *rt.Eye, objs []objects.Object) error {
+func (r *Renderer) Render(s *scene.Scene, eye *scene.Eye, objs []objects.Object) error {
 	w, err := x11.NewWindow()
 	if err != nil {
 		return err
 	}
 	fct := func() {
-		rt.Compute(eye.Position, objs)
-		draw.Draw(w.Screen(), w.Screen().Bounds(), rt.Img, image.ZP, draw.Src)
+		s.Compute(eye.Position, objs)
+		draw.Draw(w.Screen(), w.Screen().Bounds(), s.Img, image.ZP, draw.Src)
 		w.FlushImage()
 	}
 	fct()

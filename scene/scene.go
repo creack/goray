@@ -1,4 +1,4 @@
-package rt
+package scene
 
 import (
 	"fmt"
@@ -10,10 +10,10 @@ import (
 	_ "github.com/creack/goray/objects/all"
 )
 
-// RT represent the Scene.
+// Scene represent the Scene.
 // Hold the bondaries as well as the processed image buffer.
 // Also holds various extra metadata.
-type RT struct {
+type Scene struct {
 	Img     *image.RGBA
 	Width   int
 	Height  int
@@ -27,34 +27,37 @@ type Eye struct {
 	Rotation objects.Vector
 }
 
-// SceneConfig represent the configuration for a Scene.
+// Config represent the configuration for a Scene.
 // This contains Scene sizes, the Camera and the Object list.
-type SceneConfig struct {
+type Config struct {
 	Height  int
 	Width   int
 	Eye     *Eye
 	Objects []objects.Object
 }
 
-// NewRT instantiates a new Scene.
-func NewRT(w, h int) *RT {
-	return &RT{
+// NewScene instantiates a new Scene.
+func NewScene(w, h int) *Scene {
+	return &Scene{
 		Img:    image.NewRGBA(image.Rect(0, 0, w, h)),
 		Width:  w,
 		Height: h,
 	}
 }
 
-// calc iterates through the whole Object list and
-// returns the closest point's Color,
-func (rt *RT) calc(x, y int, eye objects.Point, objs []objects.Object) color.Color {
+// calc calculates the color of a single point
+// relative the the given camera (eye) and object list.
+// To find the color, we first need to find the closest object
+// to the eye crossing the line Point / Eye, then fetch the Color
+// of the found object.
+func (s *Scene) calc(x, y int, eye objects.Point, objs []objects.Object) color.Color {
 	var (
 		k   float64     = -1
 		col color.Color = color.Black
 		v               = objects.Vector{
 			X: 100,
-			Y: float64(rt.Width/2 - x),
-			Z: float64(rt.Height/2 - y),
+			Y: float64(s.Width/2 - x),
+			Z: float64(s.Height/2 - y),
 		}
 	)
 	for _, obj := range objs {
@@ -70,21 +73,21 @@ func (rt *RT) calc(x, y int, eye objects.Point, objs []objects.Object) color.Col
 
 // Compute process the Scene with the given Camera (Eye)
 // and the given Object list.
-func (rt *RT) Compute(eye objects.Point, objs []objects.Object) {
+func (s *Scene) Compute(eye objects.Point, objs []objects.Object) {
 	var (
 		x int
 		y int
 	)
 
-	for i, total := 0, rt.Width*rt.Height; i < total; i++ {
-		x = i % rt.Width
-		y = i / rt.Width
-		if rt.Verbose && x == 0 && y%10 == 0 {
-			fmt.Printf("\rProcessing: %d%%", int((float64(y)/float64(rt.Height))*100+1))
+	for i, total := 0, s.Width*s.Height; i < total; i++ {
+		x = i % s.Width
+		y = i / s.Width
+		if s.Verbose && x == 0 && y%10 == 0 {
+			fmt.Printf("\rProcessing: %d%%", int((float64(y)/float64(s.Height))*100+1))
 		}
-		rt.Img.Set(x, y, rt.calc(x, y, eye, objs))
+		s.Img.Set(x, y, s.calc(x, y, eye, objs))
 	}
-	if rt.Verbose {
+	if s.Verbose {
 		fmt.Printf("\rProcessing: 100%%\n")
 	}
 }

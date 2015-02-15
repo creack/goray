@@ -1,6 +1,6 @@
 package parser
 
-import "github.com/creack/goray/rt"
+import "github.com/creack/goray/scene"
 
 // Parsers hold all the available parsers.
 // This gets populated from the `init()` of the various
@@ -16,7 +16,7 @@ func RegisterParser(name string, parser Parser) {
 // TODO: Add Validate() method to allow for simple scene validation.
 type Parser interface {
 	// Parse parses the given filename into a RT configuration.
-	Parse(fileName string) (*rt.SceneConfig, error)
+	Parse(fileName string) (*scene.Config, error)
 	// Extensions declares the supported file types of the parser.
 	Extensions() []string
 }

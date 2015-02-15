@@ -8,7 +8,7 @@ import (
 
 	"github.com/creack/goray/objects"
 	"github.com/creack/goray/parser"
-	"github.com/creack/goray/rt"
+	"github.com/creack/goray/scene"
 	"github.com/creack/goray/utils"
 	yaml "gopkg.in/yaml.v2"
 )
@@ -53,7 +53,7 @@ func toObjectConfig(in objectConfig) objects.ObjectConfig {
 
 // Parse reads the config from the given file (or stdin) and generate
 // the configuration object.
-func (yp *Parser) Parse(filename string) (*rt.SceneConfig, error) {
+func (yp *Parser) Parse(filename string) (*scene.Config, error) {
 	var conf config
 
 	var inputStream io.Reader
@@ -74,7 +74,7 @@ func (yp *Parser) Parse(filename string) (*rt.SceneConfig, error) {
 	if err := yaml.Unmarshal(content, &conf); err != nil {
 		return nil, err
 	}
-	eye := &rt.Eye{
+	eye := &scene.Eye{
 		Position: objects.Point{
 			X: conf.Eye.Position.X,
 			Y: conf.Eye.Position.Y,
@@ -107,7 +107,7 @@ func (yp *Parser) Parse(filename string) (*rt.SceneConfig, error) {
 		conf.Window.Height = 600
 	}
 
-	return &rt.SceneConfig{
+	return &scene.Config{
 		Height:  conf.Window.Height,
 		Width:   conf.Window.Width,
 		Eye:     eye,

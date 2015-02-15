@@ -6,7 +6,7 @@ import (
 	"github.com/creack/goray/cli"
 	_ "github.com/creack/goray/parser/all"
 	_ "github.com/creack/goray/render/all"
-	"github.com/creack/goray/rt"
+	"github.com/creack/goray/scene"
 )
 
 func main() {
@@ -23,7 +23,7 @@ func main() {
 	}
 
 	// Process the image
-	rtrace := rt.NewRT(sceneConf.Width, sceneConf.Height)
+	rtrace := scene.NewScene(sceneConf.Width, sceneConf.Height)
 	rtrace.Verbose = cliConf.Verbose
 	rtrace.Compute(sceneConf.Eye.Position, sceneConf.Objects)
 

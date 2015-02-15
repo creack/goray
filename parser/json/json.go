@@ -8,7 +8,7 @@ import (
 
 	"github.com/creack/goray/objects"
 	"github.com/creack/goray/parser"
-	"github.com/creack/goray/rt"
+	"github.com/creack/goray/scene"
 	"github.com/creack/goray/utils"
 )
 
@@ -53,7 +53,7 @@ func toObjectConfig(in objectConfig) objects.ObjectConfig {
 }
 
 // Parse parses the given filename into a RT configuration.
-func (p *Parser) Parse(filename string) (*rt.SceneConfig, error) {
+func (p *Parser) Parse(filename string) (*scene.Config, error) {
 	var conf config
 
 	if filename == "-" {
@@ -71,7 +71,7 @@ func (p *Parser) Parse(filename string) (*rt.SceneConfig, error) {
 		}
 	}
 
-	eye := &rt.Eye{
+	eye := &scene.Eye{
 		Position: objects.Point{
 			X: conf.Eye.Position.X,
 			Y: conf.Eye.Position.Y,
@@ -104,7 +104,7 @@ func (p *Parser) Parse(filename string) (*rt.SceneConfig, error) {
 		conf.Window.Height = 600
 	}
 
-	return &rt.SceneConfig{
+	return &scene.Config{
 		Height:  conf.Window.Height,
 		Width:   conf.Window.Width,
 		Eye:     eye,

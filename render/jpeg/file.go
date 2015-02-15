@@ -7,7 +7,7 @@ import (
 
 	"github.com/creack/goray/objects"
 	"github.com/creack/goray/render"
-	"github.com/creack/goray/rt"
+	"github.com/creack/goray/scene"
 )
 
 func init() {
@@ -22,12 +22,12 @@ type Renderer struct {
 // Render renders the given scene (`rt`) with the given object list
 // From the `eye` perspective.
 // Renders to a JPEG file.
-func (r *Renderer) Render(rt *rt.RT, eye *rt.Eye, objs []objects.Object) error {
+func (r *Renderer) Render(s *scene.Scene, eye *scene.Eye, objs []objects.Object) error {
 	f, err := os.Create(r.file)
 	if err != nil {
 		return err
 	}
-	if err := jpeg.Encode(f, rt.Img, nil); err != nil {
+	if err := jpeg.Encode(f, s.Img, nil); err != nil {
 		return err
 	}
 	return nil
