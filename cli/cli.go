@@ -5,8 +5,10 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/creack/goray/parser"
 	_ "github.com/creack/goray/parser/yaml" // default parser
-	_ "github.com/creack/goray/render/x11"  // default renderer
+	"github.com/creack/goray/render"
+	_ "github.com/creack/goray/render/x11" // default renderer
 )
 
 // Config represent the RT configuration variables
@@ -33,11 +35,25 @@ func Flags() (*Config, error) {
 	flag.Var(&conf.Parser, "parser", "Parser to use.")
 	flag.StringVar(&conf.SceneFile, "scene", "", "Scene file to render")
 	flag.BoolVar(&conf.Verbose, "v", false, "Verbose")
+
+	flag.Usage = func() {
+		fmt.Fprintf(os.Stderr, "\nUsage: %s -scene=scene_file\n", os.Args[0])
+		flag.PrintDefaults()
+		fmt.Fprintf(os.Stderr, "\nAvailable Parsers:\n")
+		for p := range parser.Parsers {
+			fmt.Fprintf(os.Stderr, "- %s\n", p)
+		}
+		fmt.Fprintf(os.Stderr, "\nAvailable Renderers:\n")
+		for r := range render.Renderers {
+			fmt.Fprintf(os.Stderr, "- %s\n", r)
+		}
+	}
+
 	flag.Parse()
 
 	// Validate input
 	if conf.SceneFile == "" {
-		return nil, fmt.Errorf("Input scene file mandatory (-scene)")
+		return nil, fmt.Errorf("Input scene file missing (-scene)")
 	}
 
 	// Autodetect parser if not set.

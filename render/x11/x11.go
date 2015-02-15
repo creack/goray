@@ -26,6 +26,7 @@ func init() {
 // Render renders the given scene (`rt`) with the given object list
 // From the `eye` perspective.
 // Renders on X11.
+// Also handle Keyboard even and redrawing.
 func (r *Renderer) Render(s *scene.Scene, eye *scene.Eye, objs []objects.Object) error {
 	w, err := x11.NewWindow()
 	if err != nil {
