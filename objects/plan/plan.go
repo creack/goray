@@ -12,8 +12,8 @@ func init() {
 
 // Plan is the object's implemetation for a Plan.
 type Plan struct {
-	color color.Color
-	z     int
+	position objects.Point
+	color    color.Color
 }
 
 // NewPlan instanciate the Plan object.
@@ -32,15 +32,18 @@ func (p *Plan) Parse(obj objects.ObjectConfig) (objects.Object, error) {
 	if p == nil {
 		p = &Plan{}
 	}
-	p.z = obj.Position.Z
+	p.position = obj.Position
 	p.color = obj.Color
 	return p, nil
 }
 
 // Intersect calculates the distance between the eye and the Object.
 func (p *Plan) Intersect(v objects.Vector, eye objects.Point) float64 {
+	p.position.Sub(eye)
+	defer p.position.Add(eye)
+
 	if v.Z == 0 {
 		return 0
 	}
-	return -float64(eye.Z+p.z) / v.Z
+	return float64(p.position.Z) / v.Z
 }
