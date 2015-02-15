@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/creack/goray/objects"
 	"github.com/creack/goray/parser"
 	_ "github.com/creack/goray/parser/yaml" // default parser
 	"github.com/creack/goray/render"
@@ -52,6 +53,10 @@ func Flags() (*Config, error) {
 		fmt.Fprintf(os.Stderr, "\nAvailable Renderers:\n")
 		for r := range render.Renderers {
 			fmt.Fprintf(os.Stderr, "- %s\n", r)
+		}
+		fmt.Fprintf(os.Stderr, "\nAvailable Objects:\n")
+		for o := range objects.ObjectList {
+			fmt.Fprintf(os.Stderr, "- %s\n", o)
 		}
 	}
 
