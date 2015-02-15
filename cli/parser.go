@@ -19,13 +19,11 @@ type ParserCLI struct {
 func (pc *ParserCLI) Set(value string) error {
 	parse, ok := parser.Parsers[value]
 	if !ok {
-		possible := make([]string, len(parser.Parsers))
-		i := 0
+		possible := make([]string, 0, len(parser.Parsers))
 		for k := range parser.Parsers {
-			possible[i] = k
-			i++
+			possible = append(possible, k)
 		}
-		return fmt.Errorf("Unkown parser: %s. Possible values: %v", value, possible)
+		return fmt.Errorf("Unkown parser: %q. Possible values: %v", value, possible)
 	}
 	pc.name = value
 	pc.Parser = parse

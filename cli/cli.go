@@ -11,6 +11,12 @@ import (
 	_ "github.com/creack/goray/render/x11" // default renderer
 )
 
+// Set defaults.
+const (
+	DefaultParser   = "yaml"
+	DefaultRenderer = "x11"
+)
+
 // Config represent the RT configuration variables
 type Config struct {
 	Renderer  RendererCLI
@@ -23,12 +29,12 @@ type Config struct {
 func Flags() (*Config, error) {
 	conf := &Config{}
 
-	// Set Default
-	conf.Renderer.Set("x11")
-	conf.Parser.Set("yaml")
+	// Set Defaults/
+	conf.Renderer.Set(DefaultRenderer)
+	conf.Parser.Set(DefaultParser)
 
 	// Use different name to differenciate set/unset.
-	conf.Parser.name = "yaml."
+	conf.Parser.name += "."
 
 	// Get from command line
 	flag.Var(&conf.Renderer, "renderer", "Renderer to use.")
@@ -57,15 +63,15 @@ func Flags() (*Config, error) {
 	}
 
 	// Autodetect parser if not set.
-	if conf.Parser.name == "yaml." {
+	if conf.Parser.name == DefaultParser+"." {
 		name := DetectParser(conf.SceneFile)
 		if name == "" {
 			return nil, fmt.Errorf("Unkown scene format: %s", conf.SceneFile)
 		}
-		if name != "yaml" {
+		if name != DefaultParser {
 			conf.Parser.Set(name)
 		} else {
-			conf.Parser.name = "yaml"
+			conf.Parser.name = DefaultParser
 		}
 
 	}

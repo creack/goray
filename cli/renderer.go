@@ -17,13 +17,12 @@ type RendererCLI struct {
 func (rc *RendererCLI) Set(value string) error {
 	renderer, ok := render.Renderers[value]
 	if !ok {
-		possible := make([]string, len(render.Renderers))
-		i := 0
+		possible := make([]string, 0, len(render.Renderers))
 		for k := range render.Renderers {
-			possible[i] = k
-			i++
+			possible = append(possible, k)
+
 		}
-		return fmt.Errorf("Unkown renderer: %s. Possible values: %v", value, possible)
+		return fmt.Errorf("Unkown renderer: %q. Possible values: %v", value, possible)
 	}
 	renderer.Flags()
 	rc.name = value
