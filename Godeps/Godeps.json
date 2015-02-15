@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/creack/goray",
-	"GoVersion": "go1.3.1",
+	"GoVersion": "go1.3.3",
 	"Deps": [
 		{
 			"ImportPath": "code.google.com/p/x-go-binding/ui",
@@ -8,8 +8,8 @@
 			"Rev": "c5ad9cbe00295f08ade60298c8b6dc935bc9fc8f"
 		},
 		{
-			"ImportPath": "gopkg.in/yaml.v1",
-			"Rev": "feb4ca79644e8e7e39c06095246ee54b1282c118"
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "eca94c41d994ae2215d455ce578ae6e2dc6ee516"
 		}
 	]
 }
