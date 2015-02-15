@@ -2,7 +2,6 @@ package jpeg
 
 import (
 	"flag"
-	"image"
 	"image/jpeg"
 	"os"
 
@@ -12,29 +11,30 @@ import (
 )
 
 func init() {
-	render.RegisterRenderer("jpeg", &JpegRenderer{})
+	render.RegisterRenderer("jpeg", &Renderer{})
 }
 
-type JpegRenderer struct {
+// Renderer represent the JPEG renderer.
+type Renderer struct {
 	file string
 }
 
-func (pr *JpegRenderer) jpegRender(img image.Image) error {
-	f, err := os.Create(pr.file)
+// Render renders the given scene (`rt`) with the given object list
+// From the `eye` perspective.
+// Renders to a JPEG file.
+func (r *Renderer) Render(rt *rt.RT, eye *rt.Eye, objs []objects.Object) error {
+	f, err := os.Create(r.file)
 	if err != nil {
 		return err
 	}
-	if err := jpeg.Encode(f, img, nil); err != nil {
+	if err := jpeg.Encode(f, rt.Img, nil); err != nil {
 		return err
 	}
 	return nil
 }
 
-func (pr *JpegRenderer) Render(rt *rt.RT, eye *rt.Eye, objs []objects.Object) error {
-	return pr.jpegRender(rt.Img)
-}
-
-func (pr *JpegRenderer) Flags() {
-	flag.StringVar(&pr.file, "file", "out.jpeg", "File to create with jpeg renderer")
+// Flags extends the CLI with JPEF specific flags.
+func (r *Renderer) Flags() {
+	flag.StringVar(&r.file, "file", "out.jpeg", "File to create with jpeg renderer")
 	// TODO: Add flags for jpg options
 }

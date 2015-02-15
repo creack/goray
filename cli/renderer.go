@@ -6,11 +6,14 @@ import (
 	"github.com/creack/goray/render"
 )
 
+// RendererCLI wraps a renderer with a name.
+// Used to select the renderer from the CLI.
 type RendererCLI struct {
 	name     string
 	Renderer render.Renderer
 }
 
+// Set will set and initialize the RendererCLI.
 func (rc *RendererCLI) Set(value string) error {
 	renderer, ok := render.Renderers[value]
 	if !ok {
@@ -28,6 +31,7 @@ func (rc *RendererCLI) Set(value string) error {
 	return nil
 }
 
+// String returns the renderer's name.
 func (rc RendererCLI) String() string {
 	return rc.name
 }

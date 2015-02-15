@@ -6,9 +6,13 @@ import (
 	"image/color"
 
 	"github.com/creack/goray/objects"
+	// Load all Object modules
 	_ "github.com/creack/goray/objects/all"
 )
 
+// RT represent the Scene.
+// Hold the bondaries as well as the processed image buffer.
+// Also holds various extra metadata.
 type RT struct {
 	Img     *image.RGBA
 	Width   int
@@ -16,11 +20,15 @@ type RT struct {
 	Verbose bool
 }
 
+// Eye represent the scene's Camera
+// It is a point with a vector.
 type Eye struct {
 	Position objects.Point
 	Rotation objects.Vector
 }
 
+// SceneConfig represent the configuration for a Scene.
+// This contains Scene sizes, the Camera and the Object list.
 type SceneConfig struct {
 	Height  int
 	Width   int
@@ -28,6 +36,7 @@ type SceneConfig struct {
 	Objects []objects.Object
 }
 
+// NewRT instantiates a new Scene.
 func NewRT(w, h int) *RT {
 	return &RT{
 		Img:    image.NewRGBA(image.Rect(0, 0, w, h)),
@@ -36,6 +45,8 @@ func NewRT(w, h int) *RT {
 	}
 }
 
+// calc iterates through the whole Object list and
+// returns the closest point's Color,
 func (rt *RT) calc(x, y int, eye objects.Point, objs []objects.Object) color.Color {
 	var (
 		k   float64     = -1
@@ -47,6 +58,8 @@ func (rt *RT) calc(x, y int, eye objects.Point, objs []objects.Object) color.Col
 		}
 	)
 	for _, obj := range objs {
+		// If k == -1, it is our first pass, so if we have a solution, keep it.
+		// After that, we check that the solution is smaller than the one we have.
 		if tmp := obj.Intersect(v, eye); tmp > 0 && (k == -1 || tmp < k) {
 			k = tmp
 			col = obj.Color()
@@ -55,6 +68,8 @@ func (rt *RT) calc(x, y int, eye objects.Point, objs []objects.Object) color.Col
 	return col
 }
 
+// Compute process the Scene with the given Camera (Eye)
+// and the given Object list.
 func (rt *RT) Compute(eye objects.Point, objs []objects.Object) {
 	var (
 		x int

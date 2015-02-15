@@ -14,15 +14,19 @@ import (
 	"github.com/creack/goray/utils"
 )
 
-type X11Renderer struct {
+// Renderer represent the X11 renderer.
+type Renderer struct {
 	init bool
 }
 
 func init() {
-	render.RegisterRenderer("x11", &X11Renderer{})
+	render.RegisterRenderer("x11", &Renderer{})
 }
 
-func (xr *X11Renderer) Render(rt *rt.RT, eye *rt.Eye, objs []objects.Object) error {
+// Render renders the given scene (`rt`) with the given object list
+// From the `eye` perspective.
+// Renders on X11.
+func (r *Renderer) Render(rt *rt.RT, eye *rt.Eye, objs []objects.Object) error {
 	w, err := x11.NewWindow()
 	if err != nil {
 		return err
@@ -58,11 +62,12 @@ func (xr *X11Renderer) Render(rt *rt.RT, eye *rt.Eye, objs []objects.Object) err
 	return nil
 }
 
-func (xr *X11Renderer) Flags() {
-	if xr.init {
+// Flags extends the CLI with X11 specific flags.
+func (r *Renderer) Flags() {
+	if r.init {
 		return
 	}
-	xr.init = true
+	r.init = true
 
 	display := os.Getenv("DISPLAY")
 	if display == "" {

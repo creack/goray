@@ -10,7 +10,7 @@ import (
 	"github.com/creack/goray/parser"
 	"github.com/creack/goray/rt"
 	"github.com/creack/goray/utils"
-	goyaml "gopkg.in/yaml.v1"
+	yaml "gopkg.in/yaml.v2"
 )
 
 func init() {
@@ -22,6 +22,7 @@ type Parser struct {
 }
 
 // Extensions declares the supported file types of the parser.
+// Used for automatic parser detection.
 func (yp *Parser) Extensions() []string {
 	return []string{
 		"yaml",
@@ -29,6 +30,8 @@ func (yp *Parser) Extensions() []string {
 	}
 }
 
+// toObjectConfig maps the local configuration object to the
+// common Object's one.
 func toObjectConfig(in objectConfig) objects.ObjectConfig {
 	out := objects.ObjectConfig{
 		Type: in.Type,
@@ -44,7 +47,7 @@ func toObjectConfig(in objectConfig) objects.ObjectConfig {
 		},
 		R: in.R,
 	}
-	out.Color = utils.RgbIntToColor(in.Color)
+	out.Color = utils.RGBIntToColor(in.Color)
 	return out
 }
 
@@ -68,7 +71,7 @@ func (yp *Parser) Parse(filename string) (*rt.SceneConfig, error) {
 	if err != nil {
 		return nil, err
 	}
-	if err := goyaml.Unmarshal(content, &conf); err != nil {
+	if err := yaml.Unmarshal(content, &conf); err != nil {
 		return nil, err
 	}
 	eye := &rt.Eye{

@@ -13,7 +13,7 @@ func main() {
 	// Process CLI flags
 	cliConf, err := cli.Flags()
 	if err != nil {
-		log.Fatal(err)
+		log.Fatalf("flags: %s", err)
 	}
 
 	// Parse the scene file

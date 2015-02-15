@@ -9,15 +9,17 @@ import (
 	_ "github.com/creack/goray/render/x11"  // default renderer
 )
 
-type CLIConfig struct {
+// Config represent the RT configuration variables
+type Config struct {
 	Renderer  RendererCLI
 	Parser    ParserCLI
 	SceneFile string
 	Verbose   bool
 }
 
-func Flags() (*CLIConfig, error) {
-	conf := &CLIConfig{}
+// Flags handle CLIs flags
+func Flags() (*Config, error) {
+	conf := &Config{}
 
 	// Set Default
 	conf.Renderer.Set("x11")

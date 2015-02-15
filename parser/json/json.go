@@ -13,18 +13,22 @@ import (
 )
 
 func init() {
-	parser.RegisterParser("json", &JSONParser{})
+	parser.RegisterParser("json", &Parser{})
 }
 
-type JSONParser struct {
+// Parser implement the GoRay parser interface for JSON scene files
+type Parser struct {
 }
 
-func (jp *JSONParser) Extensions() []string {
+// Extensions declares the supported file types of the parser.0 // Used for automatic parser detection.
+func (p *Parser) Extensions() []string {
 	return []string{
 		"json",
 	}
 }
 
+// toObjectConfig maps the local configuration object to the
+// common Object's one.
 func toObjectConfig(in objectConfig) objects.ObjectConfig {
 	out := objects.ObjectConfig{
 		Type: in.Type,
@@ -48,7 +52,8 @@ func toObjectConfig(in objectConfig) objects.ObjectConfig {
 	return out
 }
 
-func (jp *JSONParser) Parse(filename string) (*rt.SceneConfig, error) {
+// Parse parses the given filename into a RT configuration.
+func (p *Parser) Parse(filename string) (*rt.SceneConfig, error) {
 	var conf config
 
 	if filename == "-" {
