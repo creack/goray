@@ -8,10 +8,9 @@ uname_arch := $(shell uname -m)
 GOOS   ?= $(shell uname -s | tr '[:upper:]' '[:lower:]')
 GOARCH ?= amd64
 
-GO_VERSION = 1.5
-# The go1.5 image is Linux/amd64 only. Use 1.21 for other archs.
-ifneq (${uname_arch},x86_64)
 GO_VERSION = 1.21
+
+ifneq (${uname_arch},x86_64)
 GOARCH=${uname_arch}
 endif
 
