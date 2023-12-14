@@ -26,3 +26,5 @@ goray
 *.jpg
 *.gif
 *.jpeg
+
+.built
