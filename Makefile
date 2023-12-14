@@ -8,20 +8,19 @@ uname_arch := $(shell uname -m)
 GOOS   ?= $(shell uname -s | tr '[:upper:]' '[:lower:]')
 GOARCH ?= amd64
 
-GOVERSION = 1.5
+GO_VERSION = 1.5
 # The go1.5 image is Linux/amd64 only. Use 1.21 for other archs.
 ifneq (${uname_arch},x86_64)
-GOVERSION = 1.21
+GO_VERSION = 1.21
 GOARCH=${uname_arch}
 endif
 
 ${NAME}: .built
-	echo ${uname_arch} ${GOVERSION} ${GOOS} ${GOARCH}
 	docker run --rm ${NAME} cat /tmp/out > ${NAME}
 	@chmod +x ${NAME}
 
 .built: ${SRCS}
-	docker build -t ${NAME} --build-arg GOOS=${GOOS} --build-arg GOARCH=${GOARCH} --build-arg GOVERSION=${GOVERSION} .
+	docker build -t ${NAME} --build-arg GOOS=${GOOS} --build-arg GOARCH=${GOARCH} --build-arg GO_VERSION=${GO_VERSION} .
 	@touch $@
 
 _$(NAME): $(SRCS)

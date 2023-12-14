@@ -13,4 +13,4 @@ RUN go build -a std
 WORKDIR ${GOPATH}/src/github.com/creack/goray
 ADD . .
 
-RUN export GO_VERSION=${GO_VERSION} && make _goray && cp _goray /tmp/out
+RUN make _goray GO_VERSION=${GO_VERSION} GOOS=${GOOS} GOARCH=${GOARCH} && cp _goray /tmp/out
